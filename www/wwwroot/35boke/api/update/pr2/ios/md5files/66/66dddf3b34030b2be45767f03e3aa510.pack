@@ -1,0 +1,37 @@
+﻿local Items = {
+	-- q_pictureID显示的图片showplist
+	--q_panelSouceID q_senceSouceID ridingplist资源名称
+	--q_propID 属性ID  服务端ItemDB  客户端propCfg
+	{q_ID = 3001,q_name = '枣红马',q_school = 1,q_pictureID = 1,q_panelSouceID = 1016,q_senceSouceID = 1016,q_needLevel = 15,q_addSpeed = 15,q_attack_min = 10,q_attack_max = 25,battle = 105,},
+	{q_ID = 3002,q_name = '枣红马',q_school = 2,q_pictureID = 1,q_panelSouceID = 1016,q_senceSouceID = 1016,q_needLevel = 15,q_addSpeed = 15,q_magic_attack_min = 10,q_magic_attack_max = 25,battle = 105,},
+	{q_ID = 3003,q_name = '枣红马',q_school = 3,q_pictureID = 1,q_panelSouceID = 1016,q_senceSouceID = 1016,q_needLevel = 15,q_addSpeed = 15,q_sc_attack_min = 10,q_sc_attack_max = 25,battle = 105,},
+
+	{q_ID = 3004,q_name = '黄金宝马',q_propID = 2021,q_school = 0,q_pictureID = 2,q_panelSouceID = 1017,q_senceSouceID = 1017,q_needLevel = 15,q_addSpeed = 15,q_attack_min = 20,q_attack_max = 50,q_magic_attack_min = 20,q_magic_attack_max = 50,q_sc_attack_min = 20,q_sc_attack_max = 50,q_hit = 5,q_dodge = 5,q_crit = 5,q_propper = 500,battle = 1410,},
+
+    {q_ID = 3007,q_name = '蓝狼',  q_propID = 2022,q_school = 0,q_pictureID = 15,q_panelSouceID = 1034,q_senceSouceID = 1034,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 40,q_attack_max = 70,q_magic_attack_min = 40,q_magic_attack_max = 70,q_sc_attack_min = 40,q_sc_attack_max = 70,q_hit = 8,q_dodge = 8,q_crit = 8,q_propper = 800,battle = 2330,},
+    {q_ID = 3008,q_name = '雪狼',  q_propID = 2023,q_school = 0,q_pictureID = 14,q_panelSouceID = 1033,q_senceSouceID = 1033,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 40,q_attack_max = 70,q_magic_attack_min = 40,q_magic_attack_max = 70,q_sc_attack_min = 40,q_sc_attack_max = 70,q_hit = 8,q_dodge = 8,q_crit = 8,q_propper = 800,battle = 2330,},
+
+    {q_ID = 3009,q_name = '迅天雷豹',q_propID = 2024,q_school = 0,q_pictureID = 3,q_panelSouceID = 1019,q_senceSouceID = 1019,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 60,q_attack_max = 100,q_magic_attack_min = 60,q_magic_attack_max = 100,q_sc_attack_min = 60,q_sc_attack_max = 100,q_hit = 10,q_dodge = 10,q_crit = 10,q_propper = 1000,battle = 3000,},
+    {q_ID = 3010,q_name = '闪电黑豹',q_propID = 2025,q_school = 0,q_pictureID = 4,q_panelSouceID = 1021,q_senceSouceID = 1021,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 60,q_attack_max = 100,q_magic_attack_min = 60,q_magic_attack_max = 100,q_sc_attack_min = 60,q_sc_attack_max = 100,q_hit = 10,q_dodge = 10,q_crit = 10,q_propper = 1000,battle = 3000,},
+
+    {q_ID = 3011,q_name = '东北虎',q_propID = 2026,q_school = 0,q_pictureID = 16,q_panelSouceID = 1030,q_senceSouceID = 1030,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 200,q_attack_max = 300,q_magic_attack_min = 200,q_magic_attack_max = 300,q_sc_attack_min = 200,q_sc_attack_max = 300,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 1200,battle = 3500,},
+    {q_ID = 3012,q_name = '白虎',  q_propID = 2027,q_school = 0,q_pictureID = 42,q_panelSouceID = 1022,q_senceSouceID = 1022,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 200,q_attack_max = 300,q_magic_attack_min = 200,q_magic_attack_max = 300,q_sc_attack_min = 200,q_sc_attack_max = 300,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 1200,battle = 3500,},
+
+
+    {q_ID = 3013,q_name = '熊猫',  q_propID = 2028,q_school = 0,q_pictureID = 38,q_panelSouceID = 1061,q_senceSouceID = 1061,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 200,q_attack_max = 300,q_magic_attack_min = 200,q_magic_attack_max = 300,q_sc_attack_min = 200,q_sc_attack_max = 300,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 1200,battle = 3500,},
+    {q_ID = 3014,q_name = '狗熊',  q_propID = 2029,q_school = 0,q_pictureID = 49,q_panelSouceID = 1071,q_senceSouceID = 1071,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 200,q_attack_max = 300,q_magic_attack_min = 200,q_magic_attack_max = 300,q_sc_attack_min = 200,q_sc_attack_max = 300,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 1200,battle = 3500,},
+    {q_ID = 3015,q_name = '炽焰麒麟',  q_propID = 2030,q_school = 0,q_pictureID = 6,q_panelSouceID = 1026,q_senceSouceID = 1026,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 200,q_attack_max = 300,q_magic_attack_min = 200,q_magic_attack_max = 300,q_sc_attack_min = 200,q_sc_attack_max = 300,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 1200,battle = 3500,},
+    {q_ID = 3016,q_name = '碧幽青龙',  q_propID = 2031,q_school = 0,q_pictureID = 7,q_panelSouceID = 1038,q_senceSouceID = 1038,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 200,q_attack_max = 300,q_magic_attack_min = 200,q_magic_attack_max = 300,q_sc_attack_min = 200,q_sc_attack_max = 300,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 1200,battle = 3500,},
+    {q_ID = 3017,q_name = '赤殇火凤',  q_propID = 2032,q_school = 0,q_pictureID = 8,q_panelSouceID = 1035,q_senceSouceID = 1035,q_needLevel = 15,q_addSpeed = 18,q_attack_min = 200,q_attack_max = 300,q_magic_attack_min = 200,q_magic_attack_max = 300,q_sc_attack_min = 200,q_sc_attack_max = 300,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 1200,battle = 3500,},
+    {q_ID = 3018,q_name = '释幽冰凤',  q_propID = 2033,q_school = 0,q_pictureID = 9,q_panelSouceID = 1036,q_senceSouceID = 1036,q_needLevel = 15,q_addSpeed = 20,q_attack_min = 200,q_attack_max = 300,q_magic_attack_min = 200,q_magic_attack_max = 300,q_sc_attack_min = 200,q_sc_attack_max = 300,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 1200,battle = 3500,},
+    {q_ID = 3005,q_name = '烈焰猪',  q_propID = 2034,q_school = 0,q_pictureID = 44,q_panelSouceID = 1063,q_senceSouceID = 1063,q_needLevel = 15,q_addSpeed = 20,q_attack_min = 200,q_attack_max = 300,q_magic_attack_min = 200,q_magic_attack_max = 300,q_sc_attack_min = 200,q_sc_attack_max = 300,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 1200,battle = 3500,},
+
+    {q_ID = 3006,q_name = '雷神绝魔豹', q_propID = 2036,q_school = 0,q_pictureID = 10, q_panelSouceID = 1029,q_senceSouceID = 1029,q_needLevel = 40,q_addSpeed = 25,q_attack_min = 300,q_attack_max = 400,q_magic_attack_min = 300,q_magic_attack_max = 400,q_sc_attack_min = 300,q_sc_attack_max = 400,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 2500,battle = 5000,},
+    {q_ID = 3019,q_name = '逐日神狼',q_propID = 2035,q_school = 0,q_pictureID = 51,q_panelSouceID = 1073,q_senceSouceID = 1073,q_needLevel = 40,q_addSpeed = 25,q_attack_min = 400,q_attack_max = 500,q_magic_attack_min = 400,q_magic_attack_max = 500,q_sc_attack_min = 400,q_sc_attack_max = 500,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 3000,battle = 5000,},
+
+    {q_ID = 3020,q_name = '地狱魔犼',  q_propID = 2037,q_school = 0,q_pictureID = 48, q_panelSouceID = 1077,q_senceSouceID = 1077,q_needLevel = 50,  q_addSpeed = 30,q_attack_min = 500,q_attack_max = 600,q_magic_attack_min = 500,q_magic_attack_max = 600,q_sc_attack_min = 500,q_sc_attack_max = 600,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 3500,battle = 8000,},
+    {q_ID = 3021,q_name = '天界金睨', q_propID = 2038,q_school = 0,q_pictureID = 34,q_panelSouceID = 1079,q_senceSouceID = 1079,q_needLevel = 50,  q_addSpeed = 35,q_attack_min = 600,q_attack_max = 700,q_magic_attack_min = 600,q_magic_attack_max = 700,q_sc_attack_min = 600,q_sc_attack_max = 700,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 4000,battle = 8000,},
+
+    {q_ID = 8888,q_name = '城主专属', q_propID = 2099,q_school = 0,q_pictureID = 34,q_panelSouceID = 1079,q_senceSouceID = 1079,q_needLevel = 50,  q_addSpeed = 40,q_attack_min = 800,q_attack_max = 800,q_magic_attack_min = 800,q_magic_attack_max = 800,q_sc_attack_min = 800,q_sc_attack_max = 800,q_hit = 12,q_dodge = 12,q_crit = 12,q_propper = 4500,battle = 8000,},
+};
+return Items
