@@ -24,9 +24,9 @@
  git clone https://github.com/Plume-yu/wool.git
 
  chmod 777 -R /data
- chmod 777 -R /www/wwwroot/35boke
+ chmod 777 -R /www/wwwroot/wool
  
- 设置数据库密码为：35boke.com（在宝塔直接设置）
+ 设置数据库密码为：wool.com（在宝塔直接设置）
 
  创建数据库并导入数据.（命令行工具）
  cd /data
@@ -47,13 +47,13 @@
 
  网站：
 
- /www/wwwroot/35boke/api/ym_api.php 一共10处
+ /www/wwwroot/wool/api/ym_api.php 一共10处
 
  宝塔直接创建网站有端口加端口，加端口对应客户端里面记得有一处也要加
 
  这里端口81
 
- 路径/www/wwwroot/35boke/
+ 路径/www/wwwroot/wool/
 
 
  到此算是基本搭建完毕，下面启动看看。
