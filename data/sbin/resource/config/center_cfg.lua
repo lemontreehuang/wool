@@ -12,8 +12,8 @@ center_config =
 --中心服务器数据库配置
 mysql_config = 
 {	
-	[1] = {name = "backtool", user = "root", password = "35boke.com", host = "127.0.0.1", port = 3306},			--传世	
-	[2] = {name = "backtool", user = "root", password = "35boke.com", host = "127.0.0.1", port = 3306},			--内部
+	[1] = {name = "backtool", user = "root", password = "wool.com", host = "127.0.0.1", port = 3306},			--传世	
+	[2] = {name = "backtool", user = "root", password = "wool.com", host = "127.0.0.1", port = 3306},			--内部
 }
 
 --加载配置
