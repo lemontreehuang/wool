@@ -1,0 +1,45 @@
+<?php
+if($_REQUEST){
+	$key=$_REQUEST['keyword'];
+	$return=array(array('key'=>0,'val'=>'请选择'));
+    $file = fopen("item.txt", "r");
+	if($key==''){
+		while(!feof($file))
+		{
+			$line=fgets($file);
+			$txts=explode(';',$line);
+			if(count($txts)==2){
+				$tmp=array(
+					'key'=>$txts[0],
+					'val'=>$txts[1]
+				);
+				array_push($return,$tmp);
+			}
+		}
+	}else{
+		while(!feof($file))
+		{
+			$line=fgets($file);
+			$pos=strpos($line,$key);
+			if($pos){
+				$txts=explode(';',$line);
+				if(count($txts)==2){
+					$tmp=array(
+						'key'=>$txts[0],
+						'val'=>$txts[1]
+					);
+					array_push($return,$tmp);
+				}
+			}
+		}		
+	}
+	if(count($return)==1){
+		$return=array(array('key'=>0,'val'=>'未找到'));
+	}	
+    fclose($file);
+	exit(json_encode($return));
+}
+else{
+	$return=array(array('key'=>0,'val'=>'请选择'));
+	exit(json_encode($return));
+}
