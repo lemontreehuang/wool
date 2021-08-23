@@ -14,23 +14,14 @@ game_appid_guest = "G_1105148805"
 gamesrv_appid = "wxebd64e021cb2a6d2"
 
 --tlog������ip
-tlogServerAddr = "121.36.217.55:6670"
+tlogServerAddr = "192.168.1.7:6670"
 
 --��Ҫ����������Ϸ����������ip worldLocalIp
 --1-99999 Ϊ��Ϸ������ID
 local world_servers = 
 {
-	--1-799Ϊ�ڲ��������
---	[1] = {name = "��һ��", sessionAddr = '127.0.0.1:2500', dbAddr = '127.0.0.1:3000', worldLocalIp = '127.0.0.1'},
-	--700Ϊ���������
-	[1] = {name = "��������", sessionAddr = '127.0.0.1:2500', dbAddr = '127.0.0.1:3000', worldLocalIp = '127.0.0.1'},
 	--800��ΪԤ����������
-	 [800] = {name = "��������", sessionAddr = '127.0.0.1:2500', dbAddr = '127.0.0.1:3000', worldLocalIp = '127.0.0.1'},
 	 [801] = {name = "��������2", sessionAddr = '127.0.0.1:2500', dbAddr = '127.0.0.1:3000', worldLocalIp = '127.0.0.1'},
-	-- --900Ϊ����˽����901Ϊ����
-	 [900] = {name = "�Լ�˽��", sessionAddr = '127.0.0.1:2500', dbAddr = '127.0.0.1:3000', worldLocalIp = '192.168.41.112'},
-	 [901] = {name = "10����", sessionAddr = '119.29.35.50:2500', dbAddr = '119.29.35.50:3000', worldLocalIp = '127.0.0.1'},
-	 [902] = {name = "48����", sessionAddr = '127.0.0.1:2500', dbAddr = '127.0.0.1:3000', worldLocalIp = '127.0.0.1'},
 }
 
 --����session����

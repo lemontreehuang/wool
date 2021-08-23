@@ -4,25 +4,8 @@
 local gateway_servers = 
 {
 	--1-799Ϊ�ڲ��������
-	[1] = {name = "gateway_001", connectAddr = '192.168.200.129:20020', loginAddr = '192.168.200.129', loginPort = 20020, 
+	[801] = {name = "gateway_800W", connectAddr = '192.168.1.7:20020', loginAddr = '192.168.1.7', loginPort = 20020, 
 		sessionAddr = '127.0.0.1', sessionPort = 2300, worldPort = 2200},
-	[801] = {name = "gateway_800W", connectAddr = '192.168.200.129:20020', loginAddr = '192.168.200.129', loginPort = 20020, 
-		sessionAddr = '127.0.0.1', sessionPort = 2300, worldPort = 2200},
-	--700Ϊ���������
-	-- [700] = {name = "gateway_217W", connectAddr = '106.13.97.20:20020', loginAddr = '106.13.97.20', loginPort = 20020, 
-	-- 	sessionAddr = '106.13.97.20', sessionPort = 2300, worldPort= 2200},
-	-- --800��ΪԤ����������
-	-- [800] = {name = "gateway_180W", connectAddr = '106.13.97.20:20020', loginAddr = '106.13.97.20', loginPort = 20020, 
-	-- 	sessionAddr = '127.0.0.1', sessionPort = 2300, worldPort= 2200},
-	-- [801] = {name = "gateway_105W", connectAddr = '106.13.97.20:20030', loginAddr = '106.13.97.20', loginPort = 20030, 
-	-- 	sessionAddr = '127.0.0.1', sessionPort = 2300, worldPort= 2200},
-	-- --900Ϊ����˽����901Ϊ����
-	-- [900] = {name = "gateway", connectAddr = '106.13.97.20:20020', loginAddr = '106.13.97.20', loginPort = 20020, 
-	-- 	sessionAddr = '127.0.0.1', sessionPort = 2300, worldPort= 2200},
-	-- [901] = {name = "gateway_10", connectAddr = '106.13.97.20:20020', loginAddr = '106.13.97.20', loginPort = 20020, 
-	-- 	sessionAddr = '106.13.97.20', sessionPort = 2300, worldPort= 2200},
-	-- [902] = {name = "gateway_48", connectAddr = '106.13.97.20:20020', loginAddr = '106.13.97.20', loginPort = 20020, 
-	-- 	sessionAddr = '106.13.97.20', sessionPort = 2300, worldPort= 2200},
 }
 
 --����gateway����

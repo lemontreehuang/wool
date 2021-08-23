@@ -3,17 +3,8 @@
 --1-99999 Ϊdbx������ID
 local dbx_servers = 
 {
-	--1-799Ϊ��ʽ��������
---	[1] = {name = "dbx_105W", loginAddr = '127.0.0.1', loginPort = 3000, config = 1, qq_ios = "../resource/config/qqios.conf", qq_android = "../resource/config/qqandroid.conf", winxin_ios = "../resource/config/winxinios.conf", winxin_android = "../resource/config/winxinandroid.conf"},
 	--700Ϊ���������
 	[1] = {name = "dir_001", loginAddr = '127.0.0.1', loginPort = 3100, config = 1, qq_ios = "../resource/config/qqios.conf", qq_android = "../resource/config/qqandroid.conf", winxin_ios = "../resource/config/winxinios.conf", winxin_android = "../resource/config/winxinandroid.conf"},
-	--800��ΪԤ����������
-	-- [800] = {name = "dir_12W", loginAddr = '127.0.0.1', loginPort = 3100, config = 1, qq_ios = "../resource/config/qqios.conf", qq_android = "../resource/config/qqandroid.conf", winxin_ios = "../resource/config/winxinios.conf", winxin_android = "../resource/config/winxinandroid.conf"},
-	-- [801] = {name = "dir_105W", loginAddr = '127.0.0.1', loginPort = 3100, config = 1, qq_ios = "../resource/config/qqios.conf", qq_android = "../resource/config/qqandroid.conf", winxin_ios = "../resource/config/winxinios.conf", winxin_android = "../resource/config/winxinandroid.conf"},
-	-- --900Ϊ����˽����901Ϊ����
-	-- [900] = {name = "dir_local", loginAddr = '127.0.0.1', loginPort = 3100, config = 1, qq_ios = "../resource/config/qqios.conf", qq_android = "../resource/config/qqandroid.conf", winxin_ios = "../resource/config/winxinios.conf", winxin_android = "../resource/config/winxinandroid.conf"},
-	-- [901] = {name = "dir_10", loginAddr = '127.0.0.1', loginPort = 3100, config = 1, qq_ios = "../resource/config/qqios.conf", qq_android = "../resource/config/qqandroid.conf", winxin_ios = "../resource/config/winxinios.conf", winxin_android = "../resource/config/winxinandroid.conf"},
-	-- [902] = {name = "dir_32", loginAddr = '127.0.0.1', loginPort = 3100, config = 1, qq_ios = "../resource/config/qqios.conf", qq_android = "../resource/config/qqandroid.conf", winxin_ios = "../resource/config/winxinios.conf", winxin_android = "../resource/config/winxinandroid.conf"},
 }
 
 --�������ݿ�����
