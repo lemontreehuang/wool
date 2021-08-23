@@ -51,7 +51,7 @@ switch($_POST[t3]) {
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-     <title>战旗争霸· 注册</title>
+     <title>传世 · 注册</title>
      <meta name="keywords" content=""/>
      <meta name="description" content=""/>
 	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -84,7 +84,7 @@ switch($_POST[t3]) {
 <div class="flex_row" style="width:100%;height:60px;position:fixed;top:0px;left:0px;background:#000000">
    <img src="images/logo.png" width="50" height="50" style="margin:5px;"/>
    <div class="flex_column_left flex_grow_fill" style="color:#FFF;margin-left:20px;">
-		<div style="font-size:16px;font-weight:bold">战旗争霸</div>
+		<div style="font-size:16px;font-weight:bold">传世争霸</div>
 		<div style="font-size:12px;margin-top:2px;">经典传世，震撼公测</div>
    </div>
    <img src="images/download.png" style="margin-right:20px;" height="40" width="100"
@@ -112,7 +112,7 @@ switch($_POST[t3]) {
     </form>
 </div>
 <div class="flex_row footer">
-   战旗争霸 · 精品游戏
+   Github修改 · 精品游戏
 </div>
 </body>
 </html>

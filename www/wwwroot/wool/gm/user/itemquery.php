@@ -1,8 +1,10 @@
 <?php
-if($_REQUEST){
-	$key=$_REQUEST['keyword'];
+if($_POST){
+	$key=trim($_POST['keyword']);
+//	$typeb=trim($_POST['typea']);
 	$return=array(array('key'=>0,'val'=>'请选择'));
     $file = fopen("item.txt", "r");
+//    $file = fopen($typeb.".txt", "r");
 	if($key==''){
 		while(!feof($file))
 		{
@@ -33,13 +35,9 @@ if($_REQUEST){
 			}
 		}		
 	}
-	if(count($return)==1){
-		$return=array(array('key'=>0,'val'=>'未找到'));
-	}	
     fclose($file);
-	exit(json_encode($return));
-}
-else{
+	echo(json_encode($return));
+}else{
 	$return=array(array('key'=>0,'val'=>'请选择'));
-	exit(json_encode($return));
+	echo(json_encode($return));
 }
