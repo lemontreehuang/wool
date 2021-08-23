@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<scheme>
+<database databaseid = '1' configid = '5'>
+	<baseinfor servername = '127.0.0.1' port = '3306' databasename = 'longwen_name' databasenickname = 'longwen_name'></baseinfor>
+	<popedom username = 'root' password = '35boke.com' charset = 'latin1'></popedom>
+	<asynqueue num = '4'></asynqueue>
+	<retry retrylevel = '30' retryinternal = '2' retrymaxnum = '3' retryqueuemaxsize = '128'></retry>
+	<throw throwlevel = '12' throwqueuemaxsize = '32768'></throw>
+</database>
+</scheme>

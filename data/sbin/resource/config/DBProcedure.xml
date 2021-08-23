@@ -1,0 +1,607 @@
+<?xml version='1.0'?>
+<scheme>
+	<procedure cmdid = '101'>
+		<config spname = 'sp_LoginUser' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = 'usn' size = '64'></inputdata>
+		<inputdata variablename = 'world' size = '4'></inputdata>
+		<inputdata variablename = 'sessionID' size = '4'></inputdata>
+		<outputdata variablename = '@userID' size = '4' source = 'sp' datatype='int'></outputdata>
+		<outputdata variablename = '@sessionID' size = '4' source = 'sp' datatype='int'></outputdata>
+		<outputdata variablename = '@openID' size = '64' source = 'sp' datatype='char'></outputdata>
+		<param paramname = 'usn' datatype = 'char' size = '64' dirtype = 'input' inputdataname = 'usn'></param>
+		<param paramname = 'world' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'world'></param>
+		<param paramname = 'sessionID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'sessionID'></param>
+		<param paramname = '@userID' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<param paramname = '@sessionID' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<param paramname = '@openID' datatype = 'char' size = '64' dirtype = 'output' inputdataname = '-'></param>
+	</procedure>
+	<procedure cmdid = '103'>
+		<config spname = 'sp_CreatePlayer' level = '3' databaseid = '1' queueid = '1'></config>	
+		<inputdata variablename = 'usn' size = '20'></inputdata>	
+		<inputdata variablename = 'nameid' size = '4'></inputdata>
+		<inputdata variablename = 'sex' size = '4'></inputdata>
+		<inputdata variablename = 'userID' size = '4'></inputdata>	
+		<inputdata variablename = 'worldID' size = '4'></inputdata>	
+		<inputdata variablename = 'school' size = '4'></inputdata>	
+		<inputdata variablename = 'worldName' size = '20'></inputdata>
+		<param paramname = 'usn' datatype = 'char' size = '20' dirtype = 'input' inputdataname = 'usn'></param>		
+		<param paramname = 'nameid' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'nameid'></param>		
+		<param paramname = 'sex' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'sex'></param>	
+		<param paramname = 'userID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'userID'></param>	
+		<param paramname = 'worldID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'worldID'></param>	
+		<param paramname = 'school' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'school'></param>	
+		<param paramname = 'worldName' datatype = 'char' size = '20' dirtype = 'input' inputdataname = 'worldName'></param>	
+		<param paramname = '@uId' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<param paramname = '@rId' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<outputdata variablename = '@uId' size = '4' source = 'sp' datatype='int'></outputdata>
+		<outputdata variablename = '@rId' size = '4' source = 'sp' datatype='int'></outputdata>
+	</procedure>
+	<procedure cmdid = '104'>
+		<config spname = 'sp_DeletePlayer' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'userID' size = '4'></inputdata>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+		<param paramname = 'userID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'userID'></param>
+		<param paramname = '@rId' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<param paramname = '@result' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<outputdata variablename = '@rId' size = '4' source = 'sp' datatype='int'></outputdata>
+		<outputdata variablename = '@result' size = '4' source = 'sp' datatype='int'></outputdata>
+	</procedure>
+	<procedure cmdid = '201'>
+		<config spname = 'sp_LoadPlayer' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+	</procedure>
+	<procedure cmdid = '202'>
+		<config spname = 'sp_UpdatePlayer' level = '15' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = 'id' size = '4'></inputdata>
+		<inputdata variablename = 'pk' size = '4'></inputdata>
+		<inputdata variablename = 'exp' size = '4'></inputdata>	
+		<inputdata variablename = 'ingot' size = '4'></inputdata>
+		<inputdata variablename = 'cash' size = '4'></inputdata>
+		<inputdata variablename = 'ingotAll' size = '4'></inputdata>
+		<inputdata variablename = 'battle' size = '4'></inputdata>
+		<inputdata variablename = 'equipLevel' size = '4'></inputdata>
+		<inputdata variablename = 'medalLevel' size = '4'></inputdata>
+		<inputdata variablename = 'lastLogin' size = '4'></inputdata>		
+		<inputdata variablename = 'emailTick' size = '4'></inputdata>	
+		<inputdata variablename = 'speakTick' size = '4'></inputdata>
+		<inputdata variablename = 'loginCnt' size = '4'></inputdata>
+		<inputdata variablename = 'onlineTime' size = '4'></inputdata>
+		<inputdata variablename = 'glamour' size = '4'></inputdata>
+		<inputdata variablename = 'level' size = '4'></inputdata>
+		<inputdata variablename = 'status' size = '4'></inputdata>
+		<inputdata variablename = 'money' size = '4'></inputdata>
+		<inputdata variablename = 'mapId' size = '4'></inputdata>
+		<inputdata variablename = 'mapPos' size = '4'></inputdata>
+		<inputdata variablename = 'factionId' size = '4'></inputdata>
+		<inputdata variablename = 'soulScore' size = '4'></inputdata>
+		<inputdata variablename = 'vital' size = '4'></inputdata>
+		<inputdata variablename = 'meritorious' size = '4'></inputdata>
+		<inputdata variablename = 'curhp' size = '4'></inputdata>
+		<inputdata variablename = 'curmp' size = '4'></inputdata>
+		<inputdata variablename = 'contribute' size = '4'></inputdata>
+		<inputdata variablename = 'integral' size = '4'></inputdata>
+		<inputdata variablename = 'title' size = '4'></inputdata>
+		<inputdata variablename = 'pvpRank' size = '4'></inputdata>
+		<inputdata variablename = 'silentReason' size = '32'></inputdata>		
+		<param paramname = 'id' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'id'></param>
+		<param paramname = 'pk' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'pk'></param>
+		<param paramname = 'exp' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'exp'></param>	
+		<param paramname = 'ingot' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'ingot'></param>
+		<param paramname = 'cash' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'cash'></param>
+		<param paramname = 'ingotAll' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'ingotAll'></param>
+		<param paramname = 'battle' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'battle'></param>
+		<param paramname = 'equipLevel' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'equipLevel'></param>
+		<param paramname = 'medalLevel' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'medalLevel'></param>
+		<param paramname = 'lastLogin' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'lastLogin'></param>
+		<param paramname = 'emailTick' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'emailTick'></param>
+		<param paramname = 'speakTick' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'speakTick'></param>
+		<param paramname = 'loginCnt' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'loginCnt'></param>
+		<param paramname = 'onlineTime' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'onlineTime'></param>
+		<param paramname = 'glamour' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'glamour'></param>
+		<param paramname = 'level' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'level'></param>
+		<param paramname = 'status' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'status'></param>
+		<param paramname = 'money' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'money'></param>
+		<param paramname = 'mapId' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'mapId'></param>
+		<param paramname = 'mapPos' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'mapPos'></param>
+		<param paramname = 'factionId' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'factionId'></param>
+		<param paramname = 'soulScore' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'soulScore'></param>
+		<param paramname = 'vital' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'vital'></param>
+		<param paramname = 'meritorious' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'meritorious'></param>
+		<param paramname = 'curhp' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'curhp'></param>
+		<param paramname = 'curmp' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'curmp'></param>
+		<param paramname = 'contribute' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'contribute'></param>
+		<param paramname = 'title' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'title'></param>
+		<param paramname = 'integral' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'integral'></param>
+		<param paramname = 'pvpRank' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'pvpRank'></param>
+		<param paramname = 'silentReason' datatype = 'char' size = '32' dirtype = 'input' inputdataname = 'silentReason'></param>		
+	</procedure>
+	<procedure cmdid = '204'>
+		<config spname = 'sp_LoadRole' level = '3' databaseid = '1' queueid = '2'></config>
+		<inputdata variablename = 'tabName' size = '30'></inputdata>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<param paramname = 'tabName' datatype = 'char' size = '30' dirtype = 'input' inputdataname = 'tabName'></param>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+	</procedure>
+	<procedure cmdid = '205'>
+		<config spname = 'sp_UpdateRole' level = '15' databaseid = '1' queueid = '2'></config>
+		<inputdata variablename = 'tabName' size = '30'></inputdata>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'datas' size = '2000'></inputdata>
+		<param paramname = 'tabName' datatype = 'char' size = '30' dirtype = 'input' inputdataname = 'tabName'></param>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+		<param paramname = 'datas' datatype = 'char' size = '2000' dirtype = 'input' inputdataname = 'datas'></param>		
+	</procedure>
+	<procedure cmdid = '206'>
+		<config spname = 'sp_LoadRankActivity' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = 'tab' size = '4'></inputdata>
+		<inputdata variablename = 'school' size = '4'></inputdata>
+		<param paramname = 'tab' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'tab'></param>
+		<param paramname = 'school' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'school'></param>
+	</procedure>
+	<procedure cmdid = '207'>
+		<config spname = 'sp_LoadRank' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = 'tab' size = '4'></inputdata>
+		<param paramname = 'tab' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'tab'></param>
+	</procedure>
+	<procedure cmdid = '208'>
+		<config spname = 'sp_UpdateRank' level = '15' databaseid = '1' queueid = '2'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'name' size = '50'></inputdata>
+		<inputdata variablename = 'battle' size = '4'></inputdata>
+		<inputdata variablename = 'achievePoint' size = '4'></inputdata>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+		<param paramname = 'name' datatype = 'char' size = '50' dirtype = 'input' inputdataname = 'name'></param>
+		<param paramname = 'battle' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'battle'></param>		
+		<param paramname = 'achievePoint' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'achievePoint'></param>
+	</procedure>
+	<procedure cmdid = '210'>
+		<config spname = 'sp_UpdateRoleChat' level = '3' databaseid = '1' queueid = '0'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>	
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>	
+		<inputdata variablename = '_idx' size = '4'></inputdata>	
+		<param paramname = '_idx' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_idx'></param>	
+		<inputdata variablename = '_msg' size = '1000'></inputdata>	
+		<param paramname = '_msg' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_msg'></param>
+	</procedure>	
+	<procedure cmdid = '211'>
+		<config spname = 'sp_UpdateServerPvp' level = '15' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = 'rk' size = '4'></inputdata>
+		<inputdata variablename = 'roleId' size = '4'></inputdata>
+		<inputdata variablename = 'rInfo' size = '500'></inputdata>	
+		<param paramname = 'rk' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'rk'></param>
+		<param paramname = 'roleId' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleId'></param>
+		<param paramname = 'rInfo' datatype = 'char' size = '500' dirtype = 'input' inputdataname = 'rInfo'></param>	
+	</procedure>
+	<procedure cmdid = '212'>
+		<config spname = 'sp_LoadRole2' level = '3' databaseid = '1' queueid = '3'></config>
+		<inputdata variablename = 'tabName' size = '30'></inputdata>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<param paramname = 'tabName' datatype = 'char' size = '30' dirtype = 'input' inputdataname = 'tabName'></param>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+	</procedure>
+	<procedure cmdid = '213'>
+		<config spname = 'sp_UpdateRole2' level = '15' databaseid = '1' queueid = '3'></config>
+		<inputdata variablename = 'tabName' size = '30'></inputdata>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'datas' size = '2000'></inputdata>
+		<param paramname = 'tabName' datatype = 'char' size = '30' dirtype = 'input' inputdataname = 'tabName'></param>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+		<param paramname = 'datas' datatype = 'char' size = '2000' dirtype = 'input' inputdataname = 'datas'></param>		
+	</procedure>
+	<procedure cmdid = '214'>
+		<config spname = 'sp_LoadRole3' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = 'tabName' size = '30'></inputdata>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<param paramname = 'tabName' datatype = 'char' size = '30' dirtype = 'input' inputdataname = 'tabName'></param>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+	</procedure>
+	<procedure cmdid = '215'>
+		<config spname = 'sp_UpdateRole3' level = '15' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = 'tabName' size = '30'></inputdata>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'datas' size = '2000'></inputdata>
+		<param paramname = 'tabName' datatype = 'char' size = '30' dirtype = 'input' inputdataname = 'tabName'></param>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+		<param paramname = 'datas' datatype = 'char' size = '2000' dirtype = 'input' inputdataname = 'datas'></param>		
+	</procedure>
+	<procedure cmdid = '218'>
+		<config spname = 'sp_LoadOtherMini' level = '3' databaseid = '1' queueid = '0'></config>
+		<inputdata variablename = '_serverId' size = '4'></inputdata>
+		<inputdata variablename = '_name' size = '20'></inputdata>	
+		<param paramname = '_serverId' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_serverId'></param>	
+		<param paramname = '_name' datatype = 'char' size = '20' dirtype = 'input' inputdataname = '_name'></param>	
+	</procedure>
+	<procedure cmdid = '219'>
+		<config spname = 'sp_LoadOtherData' level = '3' databaseid = '1' queueid = '0'></config>
+		<inputdata variablename = '_serverId' size = '4'></inputdata>
+		<inputdata variablename = '_name' size = '20'></inputdata>	
+		<param paramname = '_serverId' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_serverId'></param>	
+		<param paramname = '_name' datatype = 'char' size = '20' dirtype = 'input' inputdataname = '_name'></param>	
+	</procedure>
+	<procedure cmdid = '221'>
+		<config spname = 'sp_LoadAllData' level = '3' databaseid = '1' queueid = '0'></config>
+		<inputdata variablename = '_name' size = '20'></inputdata>	
+		<inputdata variablename = '_worldID' size = '4'></inputdata>
+		<param paramname = '_name' datatype = 'char' size = '20' dirtype = 'input' inputdataname = '_name'></param>	
+		<param paramname = '_worldID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_worldID'></param>
+	</procedure>
+	<procedure cmdid = '222'>
+		<config spname = 'sp_UpdateGroupItem' level = '15' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'index' size = '4'></inputdata>
+		<inputdata variablename = 'datas' size = '1024'></inputdata>	
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+		<param paramname = 'index' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'index'></param>
+		<param paramname = 'datas' datatype = 'char' size = '1024' dirtype = 'input' inputdataname = 'datas'></param>		
+	</procedure>
+	<procedure cmdid = '223'>
+		<config spname = 'sp_LoadGroupItem' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>	
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>	
+	</procedure>
+	<procedure cmdid = '224'>
+		<config spname = 'sp_UpdateEmail' level = '15' databaseid = '1' queueid = '3'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'index' size = '4'></inputdata>
+		<inputdata variablename = 'datas' size = '1000'></inputdata>	
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+		<param paramname = 'index' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'index'></param>
+		<param paramname = 'datas' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = 'datas'></param>		
+	</procedure>
+	<procedure cmdid = '225'>
+		<config spname = 'sp_LoadEmail' level = '3' databaseid = '1' queueid = '3'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>	
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>	
+	</procedure>
+	<procedure cmdid = '226'>
+		<config spname = 'sp_DeleteEmail' level = '3' databaseid = '1' queueid = '3'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'index' size = '4'></inputdata>	
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+		<param paramname = 'index' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'index'></param>	
+	</procedure>
+	<procedure cmdid = '227'>
+		<config spname = 'sp_LoadGlobalEmail' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_worldID' size = '4'></inputdata>	
+		<param paramname = '_worldID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_worldID'></param>	
+	</procedure>
+	<procedure cmdid = '228'>
+		<config spname = 'sp_AddGlobalEmail' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_worldID' size = '4'></inputdata>	
+		<inputdata variablename = '_startTime' size = '4'></inputdata>	
+		<inputdata variablename = '_endTime' size = '4'></inputdata>	
+		<inputdata variablename = '_level' size = '4'></inputdata>	
+		<inputdata variablename = '_emailType' size = '4'></inputdata>	
+		<inputdata variablename = '_datas' size = '1000'></inputdata>	
+		<param paramname = '_worldID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_worldID'></param>	
+		<param paramname = '_startTime' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_startTime'></param>	
+		<param paramname = '_endTime' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_endTime'></param>	
+		<param paramname = '_level' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_level'></param>	
+		<param paramname = '_emailType' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_emailType'></param>	
+		<param paramname = '_datas' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_datas'></param>	
+	</procedure>
+	<procedure cmdid = '229'>
+		<config spname = 'sp_DeleteGlobalEmail' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_worldID' size = '4'></inputdata>	
+		<inputdata variablename = '_endTime' size = '4'></inputdata>		
+		<param paramname = '_worldID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_worldID'></param>	
+		<param paramname = '_endTime' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_endTime'></param>	
+	</procedure>
+	<procedure cmdid = '231'>
+		<config spname = 'sp_UpdateActivity' level = '15' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'modelID' size = '4'></inputdata>
+		<inputdata variablename = 'activityID' size = '4'></inputdata>	
+		<inputdata variablename = 'datas' size = '200'></inputdata>	
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>
+		<param paramname = 'modelID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'modelID'></param>
+		<param paramname = 'activityID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'activityID'></param>	
+		<param paramname = 'datas' datatype = 'char' size = '200' dirtype = 'input' inputdataname = 'datas'></param>
+	</procedure>
+	<procedure cmdid = '232'>
+		<config spname = 'sp_DeleteActivity' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = 'modelID' size = '4'></inputdata>
+		<inputdata variablename = 'activityID' size = '4'></inputdata>	
+		<param paramname = 'modelID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'modelID'></param>
+		<param paramname = 'activityID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'activityID'></param>	
+	</procedure>
+	<procedure cmdid = '233'>
+		<config spname = 'sp_LoadActivity' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>	
+	</procedure>
+	<procedure cmdid = '236'>
+		<config spname = 'sp_UpdateIngotBag' level = '3' databaseid = '1' queueid = '3'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'bagID' size = '4'></inputdata>
+		<inputdata variablename = 'world' size = '4'></inputdata>
+		<inputdata variablename = 'datas' size = '1000'></inputdata>	
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>	
+		<param paramname = 'bagID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'bagID'></param>	
+		<param paramname = 'world' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'world'></param>
+		<param paramname = 'datas' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = 'datas'></param>
+	</procedure>
+	<procedure cmdid = '237'>
+		<config spname = 'sp_LoadIngotBag' level = '3' databaseid = '1' queueid = '3'></config>
+		<inputdata variablename = 'world' size = '4'></inputdata>
+		<param paramname = 'world' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'world'></param>
+	</procedure>
+	<procedure cmdid = '238'>
+		<config spname = 'sp_DeleteIngotBag' level = '3' databaseid = '1' queueid = '3'></config>
+		<inputdata variablename = 'roleID' size = '4'></inputdata>
+		<inputdata variablename = 'bagID' size = '4'></inputdata>
+		<param paramname = 'roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'roleID'></param>	
+		<param paramname = 'bagID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'bagID'></param>
+	</procedure>
+	<procedure cmdid = '301'>
+		<config spname = 'sp_CreateFaction' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>	
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>	
+		<inputdata variablename = '_facName' size = '100'></inputdata>	
+		<param paramname = '_facName' datatype = 'char' size = '100' dirtype = 'input' inputdataname = '_facName'></param>	
+		<inputdata variablename = '_leaderName' size = '100'></inputdata>	
+		<param paramname = '_leaderName' datatype = 'char' size = '100' dirtype = 'input' inputdataname = '_leaderName'></param>	
+		<inputdata variablename = '_world' size = '4'></inputdata>	
+		<param paramname = '_world' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_world'></param>	
+		<inputdata variablename = 'memdatas' size = '200'></inputdata>	
+		<param paramname = 'memdatas' datatype = 'char' size = '200' dirtype = 'input' inputdataname = 'memdatas'></param>
+	</procedure>
+	<procedure cmdid = '303'>
+		<config spname = 'sp_DeleteFaction' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_world' size = '4'></inputdata>
+		<param paramname = '_world' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_world'></param>
+		<inputdata variablename = '_factionID' size = '4'></inputdata>	
+		<param paramname = '_factionID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_factionID'></param>	
+	</procedure>
+	<procedure cmdid = '304'>
+		<config spname = 'sp_UpdateFactionMember' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>	
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>
+		<inputdata variablename = '_factionID' size = '4'></inputdata>	
+		<param paramname = '_factionID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_factionID'></param>	
+		<inputdata variablename = '_memData' size = '200'></inputdata>	
+		<param paramname = '_memData' datatype = 'char' size = '200' dirtype = 'input' inputdataname = '_memData'></param>
+	</procedure>
+	<procedure cmdid = '403'>
+		<config spname = 'sp_UpdateCopyData' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = '_copyID' size = '4'></inputdata>	
+		<param paramname = '_copyID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_copyID'></param>	
+		<inputdata variablename = '_world' size = '4'></inputdata>	
+		<param paramname = '_world' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_world'></param>	
+		<inputdata variablename = '_datas' size = '1000'></inputdata>	
+		<param paramname = '_datas' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_datas'></param>	
+	</procedure>
+	<procedure cmdid = '407'>
+		<config spname = 'sp_UpdateOffEmail' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>
+		<inputdata variablename = '_emailContent' size = '1000'></inputdata>	
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>
+		<param paramname = '_emailContent' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_emailContent'></param>
+	</procedure>
+	<procedure cmdid = '408'>
+		<config spname = 'sp_UpdateCopyCnt' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>	
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>
+		<inputdata variablename = '_index' size = '4'></inputdata>	
+		<param paramname = '_index' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_index'></param>	
+		<inputdata variablename = '_data' size = '1000'></inputdata>	
+		<param paramname = '_data' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_data'></param>
+	</procedure>
+	<procedure cmdid = '410'>
+		<config spname = 'sp_UpdateCopyReward' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>	
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>
+		<inputdata variablename = '_idx' size = '4'></inputdata>	
+		<param paramname = '_idx' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_idx'></param>
+		<inputdata variablename = '_data' size = '1000'></inputdata>	
+		<param paramname = '_data' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_data'></param>
+	</procedure>
+	<procedure cmdid = '505'>
+		<config spname = 'sp_UpdateManorWar' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_mid' size = '4'></inputdata>
+		<param paramname = '_mid' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_mid'></param>
+		<inputdata variablename = '_server' size = '4'></inputdata>	
+		<param paramname = '_server' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_server'></param>
+		<inputdata variablename = '_occupytime' size = '4'></inputdata>	
+		<param paramname = '_occupytime' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_occupytime'></param>
+		<inputdata variablename = '_factionid' size = '4'></inputdata>	
+		<param paramname = '_factionid' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_factionid'></param>
+		<inputdata variablename = '_preopentime' size = '4'></inputdata>	
+		<param paramname = '_preopentime' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_preopentime'></param>
+		<inputdata variablename = '_topencnt' size = '4'></inputdata>	
+		<param paramname = '_topencnt' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_topencnt'></param>
+		<inputdata variablename = '_official' size = '50'></inputdata>	
+		<param paramname = '_official' datatype = 'char' size = '50' dirtype = 'input' inputdataname = '_official'></param>
+		<inputdata variablename = '_facname' size = '30'></inputdata>	
+		<param paramname = '_facname' datatype = 'char' size = '30' dirtype = 'input' inputdataname = '_facname'></param>
+	</procedure>
+	<procedure cmdid = '506'>
+		<config spname = 'sp_LoadManorWar' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_server' size = '4'></inputdata>
+		<param paramname = '_server' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_server'></param>
+	</procedure>
+	<procedure cmdid = '509'>
+		<config spname = 'sp_LoadOffRoleMine' level = '3' databaseid = '1' queueid = '3'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>
+	</procedure>
+	<procedure cmdid = '510'>
+		<config spname = 'sp_UpdateShaWar' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_serverid' size = '4'></inputdata>
+		<inputdata variablename = '_datas' size = '1000'></inputdata>	
+		<param paramname = '_serverid' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_serverid'></param>
+		<param paramname = '_datas' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_datas'></param>		
+	</procedure>
+	<procedure cmdid = '511'>
+		<config spname = 'sp_LoadShaWar' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_serverid' size = '4'></inputdata>
+		<param paramname = '_serverid' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_serverid'></param>
+	</procedure>
+	<procedure cmdid = '512'>
+		<config spname = 'sp_LoadFactionRole' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_facId' size = '4'></inputdata>
+		<param paramname = '_facId' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_facId'></param>
+	</procedure>
+	<procedure cmdid = '513'>
+		<config spname = 'sp_UpdateFaction' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_factionID' size = '4'></inputdata>
+		<inputdata variablename = '_worldID' size = '4'></inputdata>	
+		<inputdata variablename = '_leaderID' size = '4'></inputdata>
+		<inputdata variablename = '_leaderName' size = '100'></inputdata>
+		<inputdata variablename = '_bannerLvl' size = '4'></inputdata>
+		<inputdata variablename = '_storeLvl' size = '4'></inputdata>
+		<inputdata variablename = '_money' size = '4'></inputdata>
+		<inputdata variablename = '_level' size = '4'></inputdata>
+		<inputdata variablename = '_autoJoin' size = '4'></inputdata>
+		<inputdata variablename = '_assLeaderNum' size = '4'></inputdata>
+		<inputdata variablename = '_allMemberCnt' size = '4'></inputdata>
+		<inputdata variablename = '_comment' size = '1000'></inputdata>
+		<inputdata variablename = '_ability' size = '4'></inputdata>
+		<inputdata variablename = '_statueNum' size = '4'></inputdata>
+		<inputdata variablename = '_apply' size = '2000'></inputdata>
+		<param paramname = '_factionID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_factionID'></param>
+		<param paramname = '_worldID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_worldID'></param>
+		<param paramname = '_leaderID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_leaderID'></param>
+		<param paramname = '_leaderName' datatype = 'char' size = '100' dirtype = 'input' inputdataname = '_leaderName'></param>
+		<param paramname = '_bannerLvl' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_bannerLvl'></param>
+		<param paramname = '_storeLvl' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_storeLvl'></param>
+		<param paramname = '_money' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_money'></param>
+		<param paramname = '_level' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_level'></param>
+		<param paramname = '_autoJoin' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_autoJoin'></param>
+		<param paramname = '_assLeaderNum' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_assLeaderNum'></param>
+		<param paramname = '_allMemberCnt' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_allMemberCnt'></param>
+		<param paramname = '_comment' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_comment'></param>
+		<param paramname = '_ability' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_ability'></param>
+		<param paramname = '_statueNum' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_statueNum'></param>
+		<param paramname = '_apply' datatype = 'char' size = '2000' dirtype = 'input' inputdataname = '_apply'></param>
+	</procedure>
+	<procedure cmdid = '514'>
+		<config spname = 'sp_UpdateCopyStar' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>	
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>
+		<inputdata variablename = '_data' size = '1000'></inputdata>	
+		<param paramname = '_data' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_data'></param>
+	</procedure>
+	<procedure cmdid = '515'>
+		<config spname = 'sp_UpdateCopyStarPrize' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>	
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>
+		<inputdata variablename = '_type' size = '4'></inputdata>	
+		<param paramname = '_type' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_type'></param>
+		<inputdata variablename = '_data' size = '1000'></inputdata>	
+		<param paramname = '_data' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_data'></param>
+	</procedure>
+	<procedure cmdid = '516'>
+		<config spname = 'sp_CreateRewardTask' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_TaskGUID' size = '4'></inputdata>
+		<inputdata variablename = '_OwnerGUID' size = '4'></inputdata>	
+		<inputdata variablename = '_OwnerName' size = '100'></inputdata>
+		<inputdata variablename = '_TaskRank' size = '4'></inputdata>
+		<inputdata variablename = '_TaskID' size = '4'></inputdata>
+		<param paramname = '_TaskGUID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_TaskGUID'></param>
+		<param paramname = '_OwnerGUID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_OwnerGUID'></param>
+		<param paramname = '_OwnerName' datatype = 'char' size = '100' dirtype = 'input' inputdataname = '_OwnerName'></param>
+		<param paramname = '_TaskRank' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_TaskRank'></param>
+		<param paramname = '_TaskID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_TaskID'></param>
+		<param paramname = '@res' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<outputdata variablename = '@res' size = '4' source = 'sp' datatype='int'></outputdata>
+	</procedure>
+	<procedure cmdid = '517'>
+		<config spname = 'sp_DeleteRewardTask' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_TaskGUID' size = '4'></inputdata>
+		<inputdata variablename = '_OwnerGUID' size = '4'></inputdata>	
+		<param paramname = '_TaskGUID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_TaskGUID'></param>
+		<param paramname = '_OwnerGUID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_OwnerGUID'></param>
+		<param paramname = '@res' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<outputdata variablename = '@res' size = '4' source = 'sp' datatype='int'></outputdata>
+	</procedure>
+	<procedure cmdid = '518'>
+		<config spname = 'sp_FinishRewardTask' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_TaskGUID' size = '4'></inputdata>
+		<inputdata variablename = '_OwnerGUID' size = '4'></inputdata>	
+		<inputdata variablename = '_TaskID' size = '4'></inputdata>
+		<param paramname = '_TaskGUID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_TaskGUID'></param>
+		<param paramname = '_OwnerGUID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_OwnerGUID'></param>
+		<param paramname = '_TaskID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_TaskID'></param>
+		<param paramname = '@res' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<outputdata variablename = '@res' size = '4' source = 'sp' datatype='int'></outputdata>
+	</procedure>
+	<procedure cmdid = '519'>
+		<config spname = 'sp_SelectRewardTask' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_OwnerGUID' size = '4'></inputdata>
+		<inputdata variablename = '_TaskRank' size = '4'></inputdata>
+		<inputdata variablename = '_Start' size = '4'></inputdata>
+		<inputdata variablename = '_End' size = '4'></inputdata>
+		<param paramname = '_OwnerGUID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_OwnerGUID'></param>	
+		<param paramname = '_TaskRank' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_TaskRank'></param>	
+		<param paramname = '_Start' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_Start'></param>
+		<param paramname = '_End' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_End'></param>
+	</procedure>	
+	<procedure cmdid = '520'>
+		<config spname = 'sp_SelectOwnerRewardTask' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_OwnerGUID' size = '4'></inputdata>	
+		<param paramname = '_OwnerGUID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_OwnerGUID'></param>
+	</procedure>
+	<procedure cmdid = '521'>
+		<config spname = 'sp_LoadFactionSocial' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_WorldID' size = '4'></inputdata>
+		<param paramname = '_WorldID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_WorldID'></param>
+	</procedure>
+	<procedure cmdid = '522'>
+		<config spname = 'sp_UpdateFactionSocial' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_SocialID' size = '32'></inputdata>
+		<inputdata variablename = '_WorldID' size = '4'></inputdata>
+		<inputdata variablename = '_AFactionID' size = '4'></inputdata>	
+		<inputdata variablename = '_BFactionID' size = '4'></inputdata>
+		<inputdata variablename = '_State' size = '4'></inputdata>
+		<inputdata variablename = '_OpRoleID' size = '4'></inputdata>
+		<inputdata variablename = '_OpFactionID' size = '4'></inputdata>
+		<inputdata variablename = '_OpTime' size = '4'></inputdata>
+		<inputdata variablename = '_AFactionOpTime' size = '4'></inputdata>
+		<inputdata variablename = '_BFactionOpTime' size = '4'></inputdata>
+		<param paramname = '_SocialID' datatype = 'char' size = '32' dirtype = 'input' inputdataname = '_SocialID'></param>
+		<param paramname = '_WorldID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_WorldID'></param>
+		<param paramname = '_AFactionID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_AFactionID'></param>
+		<param paramname = '_BFactionID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_BFactionID'></param>
+		<param paramname = '_State' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_State'></param>
+		<param paramname = '_OpRoleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_OpRoleID'></param>
+		<param paramname = '_OpFactionID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_OpFactionID'></param>
+		<param paramname = '_OpTime' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_OpTime'></param>
+		<param paramname = '_AFactionOpTime' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_AFactionOpTime'></param>
+		<param paramname = '_BFactionOpTime' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_BFactionOpTime'></param>
+		<param paramname = '@res' datatype = 'int' size = '4' dirtype = 'output' inputdataname = '-'></param>
+		<outputdata variablename = '@res' size = '4' source = 'sp' datatype='int'></outputdata>
+	</procedure>
+
+	<procedure cmdid = '532'>
+		<config spname = 'sp_LoadGiveFlowerOff' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = 'rID' size = '4'></inputdata>
+		<param paramname = 'rID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = 'rID'></param>
+	</procedure>
+
+	<procedure cmdid = '533'>
+		<config spname = 'sp_UpdateGiveFlowerOff' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>	
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>
+		<inputdata variablename = '_data' size = '1000'></inputdata>	
+		<param paramname = '_data' datatype = 'char' size = '1000' dirtype = 'input' inputdataname = '_data'></param>
+	</procedure>
+
+	<procedure cmdid = '534'>
+		<config spname = 'sp_DeleteGiveFlowerOff' level = '3' databaseid = '1' queueid = '4'></config>
+		<inputdata variablename = '_roleID' size = '4'></inputdata>
+		<param paramname = '_roleID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_roleID'></param>	
+	</procedure>
+
+	<procedure cmdid = '600'>
+		<config spname = 'sp_UpdateDropLimit' level = '3' databaseid = '1' queueid = '1'></config>
+		<inputdata variablename = '_itemID' size = '4'></inputdata>	
+		<param paramname = '_itemID' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_itemID'></param>
+		<inputdata variablename = '_dropCnt' size = '4'></inputdata>	
+		<param paramname = '_dropCnt' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_dropCnt'></param>
+		<inputdata variablename = '_tick' size = '4'></inputdata>	
+		<param paramname = '_tick' datatype = 'int' size = '4' dirtype = 'input' inputdataname = '_tick'></param>
+	</procedure>
+</scheme>

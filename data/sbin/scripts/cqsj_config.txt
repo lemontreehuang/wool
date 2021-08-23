@@ -1,0 +1,51 @@
+#==========Dynamic Config============
+SERVER_ID=800
+
+#DBServer's Address
+DBX_ADDR=127.0.0.1
+#DBServer's Port
+DBX_PORT=3000
+
+#Gateway's Address for client to connect
+GATEWAY_EXADDR=47.75.161.201:19911
+#Gateway's Inside  Port
+GATEWAY_INPORT=7001
+
+#Session's Address for inside servers to connect
+SESSION_ADDR=127.0.0.1
+#Session Listen Port For Client
+SESSION_EXPORT=20013
+#Session's port for gateway to connect
+SESSION_GATE_PORT=2300
+#Session's port for world to connect
+SESSION_WORLD_PORT=2500
+
+#World's Address
+WORLD_ADDR=47.75.161.201
+TLOG_SERVERADDR=127.0.0.1:1234
+#Gateway's port for world to connect
+GATE_WORLD_PORT=2200
+
+#DB config
+DB_PORT=2401
+DB_USER=user
+DB_PWD=password
+DB_SERVER_NAME=47.75.161.201
+DB_NAME=db_cqsj_gamedb_1991
+DB_NICK_NAME=dbnickname
+
+#TLOG DB config
+TLOG_DB_PORT=20026
+TLOG_DB_USER=user_cqsj
+TLOG_DB_PWD=cqsj@2015
+TLOG_DB_SERVER_NAME=47.75.161.201
+TLOG_DB_NAME=db_cqsj_online
+TLOG_DB_NICK_NAME=db_cqsj_online
+
+#==========Static Config=============
+CENTER_ADDR=47.75.161.201
+CENTER_PORT=20007
+#NameProxy's Address
+NAME_ADDR=127.0.0.1
+#NameProxy's Port for SessionServer to connect
+NAME_PORT=3207

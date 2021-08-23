@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GBK" standalone="yes" ?>
+<config>
+	
+	<log_config_>
+		<log_level_> 2 </log_level_>
+	</log_config_>
+	
+	<anti_config_>
+		<enable_check_> 1 </enable_check_>
+		<echo_nodecrypt_> 1 </echo_nodecrypt_>
+	</anti_config_>
+	
+	<uic_config_>
+        <use_backend_check_> 0 </use_backend_check_>
+        
+        <!-- 注意这个配置项需要根据实际情况配置：游戏发言信息的编码格式gbk(0), utf8(1) -->
+		<user_input_code_> 1 </user_input_code_>
+		<use_dirty_file_flag_> 1 </use_dirty_file_flag_>
+		<dirty_file_>../resource/config/vocabulary.txt</dirty_file_>
+	</uic_config_>
+	
+</config>

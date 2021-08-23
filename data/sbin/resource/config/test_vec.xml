@@ -1,0 +1,52 @@
+<TLOGConf>
+	<PriorityHigh>NULL</PriorityHigh>
+	<PriorityLow>UNKNOWN</PriorityLow>
+	<DelayInit>0</DelayInit>
+	<SuppressError>0</SuppressError>
+	<Count>1</Count>
+	<CategoryList>
+		<Name>test</Name>
+		<PriorityHigh>NULL</PriorityHigh>
+		<PriorityLow>UNKNOWN</PriorityLow>
+		<LevelDispatch>1</LevelDispatch>				
+		<MustSucc>0</MustSucc>
+		<Format>%m%n</Format>
+		<ForwardCat></ForwardCat>
+		<Device>
+			<Type>VEC</Type>
+			<Device>
+				<Vec>
+					<Count>2</Count>
+					<Elements>
+						<Type>FILE</Type>
+						<Device>
+							<File>
+								<Pattern>./log/test_vec.log</Pattern>
+								<BuffSize> 1024000 </BuffSize>
+								<SizeLimit> 512000000 </SizeLimit>
+								<Precision> 1 </Precision>
+								<MaxRotate> 10 </MaxRotate>
+								<SyncTime> 0 </SyncTime>
+								<NoFindLatest> 0 </NoFindLatest>
+							</File>	
+						</Device>	
+					</Elements>
+					<Elements>
+						<Type>NET</Type>
+						<Device>
+							<Net>
+								<Url>udp://121.36.217.55:6670</Url>
+								<Sendbuff>0</Sendbuff>
+								<RecvBuff>0</RecvBuff>
+								<AutoReconnect>1</AutoReconnect>
+								<MaxRetry>0</MaxRetry>                 
+								<ConnTimeout>1000</ConnTimeout>                     
+								<SendTimeout>1000</SendTimeout>  
+							</Net>
+						</Device>
+					</Elements>
+				</Vec>
+			</Device>
+		</Device>
+	</CategoryList>
+</TLOGConf>

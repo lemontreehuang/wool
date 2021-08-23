@@ -1,0 +1,1689 @@
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2500 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:2500
+connect ok:127.0.0.1:2500
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2201 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:2201
+connect ok:127.0.0.1:2201
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2500 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:2500
+connect ok:127.0.0.1:2500
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2201 info :Operation now in progress
+tcp_conn_server connect ok:127.0.0.1:2201
+connect ok:127.0.0.1:2201
+Unload TSS SDK OK.
+begin load xml...
+begin read file...
+fileLength = 499
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+begin load xml...
+begin read file...
+fileLength = 2794
+begin decrypt file...
+pTiXmlDocument::begin parse file...
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3220 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3000 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2300 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:3220
+connect ok:127.0.0.1:3220
+tcp_conn_server connect ok:127.0.0.1:3000
+connect ok:127.0.0.1:3000
+tcp_conn_server connect ok:127.0.0.1:2300
+connect ok:127.0.0.1:2300
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2500 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect ok:127.0.0.1:2500
+connect ok:127.0.0.1:2500
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:2201 info :Operation now in progress
+tcp_conn_server connect ok:127.0.0.1:2201
+connect ok:127.0.0.1:2201
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:3210 info :Connection refused
+conn_check connect warning:127.0.0.1:3210 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:3210 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress
+tcp_conn_server connect warning:127.0.0.1:10211 info :Connection refused
+conn_check connect warning:127.0.0.1:10211 info :Connection refused
+tcp_conn_server connect warning:127.0.0.1:10211 info :Operation now in progress

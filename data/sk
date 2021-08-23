@@ -1,0 +1,28 @@
+#!/bin/bash
+
+HOSTNAME="localhost"
+PORT="3306"
+USERNAME="root"
+PASSWORD="35boke.com"
+
+DB1="longwen"
+DB2="longwen_name"
+
+
+#创建数据库
+sql1="create database ${DB1} DEFAULT CHARACTER SET latin1 COLLATE latin1_general_ci;"
+sql2="create database ${DB2} DEFAULT CHARACTER SET latin1 COLLATE latin1_general_ci;"
+
+
+
+mysql -h${HOSTNAME} -P${PORT} -u${USERNAME} -p${PASSWORD} -e "${sql1}"
+mysql -h${HOSTNAME} -P${PORT} -u${USERNAME} -p${PASSWORD} -e "${sql2}"
+
+
+#还原数据库
+mysql -u${USERNAME} -p${PASSWORD} ${DB1} < /data/sql/longwen.sql
+mysql -u${USERNAME} -p${PASSWORD} ${DB2} < /data/sql/longwen_name.sql
+
+
+
+

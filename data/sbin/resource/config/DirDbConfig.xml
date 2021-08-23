@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<scheme>
+<database databaseid = '1' configid = '1'>
+	<baseinfor servername = '127.0.0.1' port = '53306' databasename = 'dirserver' databasenickname = 'dirserver'></baseinfor>
+	<popedom username = 'root' password = 'kuniushareycg' charset = 'utf8'></popedom>
+	<asynqueue num = '4'></asynqueue>
+	<retry retrylevel = '30' retryinternal = '2' retrymaxnum = '3' retryqueuemaxsize = '128'></retry>
+	<throw throwlevel = '12' throwqueuemaxsize = '32768'></throw>
+</database>
+<database databaseid = '2' configid = '1'>
+	<baseinfor servername = '127.0.0.1' port = '53306' databasename = 'dirserver' databasenickname = 'dirserver'></baseinfor>
+	<popedom username = 'root' password = 'kuniushareycg' charset = 'utf8'></popedom>
+	<asynqueue num = '4'></asynqueue>
+	<retry retrylevel = '30' retryinternal = '2' retrymaxnum = '3' retryqueuemaxsize = '128'></retry>
+	<throw throwlevel = '12' throwqueuemaxsize = '32768'></throw>
+</database>
+<database databaseid = '3' configid = '1'>
+	<baseinfor servername = '127.0.0.1' port = '53306' databasename = 'dirserver' databasenickname = 'dirserver'></baseinfor>
+	<popedom username = 'root' password = 'kuniushareycg' charset = 'utf8'></popedom>
+	<asynqueue num = '4'></asynqueue>
+	<retry retrylevel = '30' retryinternal = '2' retrymaxnum = '3' retryqueuemaxsize = '128'></retry>
+	<throw throwlevel = '12' throwqueuemaxsize = '32768'></throw>
+</database>
+<database databaseid = '4' configid = '1'>
+	<baseinfor servername = '127.0.0.1' port = '53306' databasename = 'dirserver' databasenickname = 'dirserver'></baseinfor>
+	<popedom username = 'root' password = 'kuniushareycg' charset = 'utf8'></popedom>
+	<asynqueue num = '4'></asynqueue>
+	<retry retrylevel = '30' retryinternal = '2' retrymaxnum = '3' retryqueuemaxsize = '128'></retry>
+	<throw throwlevel = '12' throwqueuemaxsize = '32768'></throw>
+</database>
+<!--tdlog addr -->
+<database databaseid = '2' configid = '2'>
+	<baseinfor servername = '119.147.15.140' port = '20026' databasename = 'db_cqsj_online' databasenickname = 'db_cqsj_online'></baseinfor>
+	<popedom username = 'user_cqsj' password = 'cqsj@2015' charset = 'utf8'></popedom>
+	<asynqueue num = '1'></asynqueue>
+	<retry retrylevel = '30' retryinternal = '2' retrymaxnum = '3' retryqueuemaxsize = '128'></retry>
+	<throw throwlevel = '12' throwqueuemaxsize = '32768'></throw>
+</database>
+</scheme>
