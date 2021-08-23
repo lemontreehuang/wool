@@ -1,0 +1,415 @@
+﻿
+--装备打造
+local Items = {
+
+	--命运
+	{q_id = 1,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{[1]={[3010113]=700,[4010114]=250,[5010115]=50},[2]={[3020113]=700,[4020114]=250,[5020115]=50},[3]={[3030113]=700,[4030114]=250,[5030115]=50}}',q_forgeCost = '{[1440]=1,[999998]=100000}',},
+
+	--逍遥无极扇
+	{q_id = 14,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5130106]=1000}}',q_forgeCost = '{[1219]=150}',},
+
+	--霹雳法杖
+	{q_id = 15,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5120105]=1000}}',q_forgeCost = '{[1219]=150}',},
+
+	--雷霆怒斩
+	{q_id = 16,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5110106]=1000}}',q_forgeCost = '{[1219]=150}',},
+
+	--倚天剑
+	{q_id = 17,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5130107]=1000}}',q_forgeCost = '{[5130106]=3,[1219]=300}',},
+
+	--嗜魂
+	{q_id = 18,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5120107]=1000}}',q_forgeCost = '{[5120105]=3,[1219]=300}',},
+
+	--屠龙刀
+	{q_id = 19,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5110107]=1000}}',q_forgeCost = '{[5110106]=3,[1219]=300}',},
+
+	--聚灵
+	{q_id = 20,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5130108]=1000}}',q_forgeCost = '{[5130107]=3,[1219]=500}',},
+	--夺魄
+	{q_id = 21,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5120108]=1000}}',q_forgeCost = '{[5120107]=3,[1219]=500}',},
+	--无赦
+	{q_id = 22,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5110108]=1000}}',q_forgeCost = '{[5110107]=3,[1219]=500}',},
+
+	{q_id = 300,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5110112]=1000}}',q_forgeCost = '{[5110108]=3,[1219]=800}',},
+	{q_id = 301,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5120112]=1000}}',q_forgeCost = '{[5120108]=3,[1219]=800}',},
+	{q_id = 302,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5130112]=1000}}',q_forgeCost = '{[5130108]=3,[1219]=800}',},
+
+	--怒狂降魔杵
+	{q_id = 303,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5110117]=1000}}',q_forgeCost = '{[5110112]=3,[1220]=100}',},
+	--幻龙风雷鞭
+	{q_id = 304,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5120117]=1000}}',q_forgeCost = '{[5120112]=3,[1220]=100}',},
+	--清心碧玉笛
+	{q_id = 305,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5130117]=1000}}',q_forgeCost = '{[5130112]=3,[1220]=100}',},
+
+	--烈焰屠龙刀
+	{q_id = 306,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5110111]=1000}}',q_forgeCost = '{[5110117]=3,[1221]=100}',},
+	--雷霆审判
+	{q_id = 307,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5120111]=1000}}',q_forgeCost = '{[5120117]=3,[1221]=100}',},
+	--碧心道剑
+	{q_id = 308,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[5130111]=1000}}',q_forgeCost = '{[5130117]=3,[1221]=100}',},
+--
+	
+	{q_id = 309,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[8110108]=1000}}',q_forgeCost = '{[5110111]=3,[1103]=500}',},
+	--雷霆审判
+	{q_id = 310,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[8120108]=1000}}',q_forgeCost = '{[5120111]=3,[1103]=500}',},
+	--碧心道剑
+	{q_id = 311,q_sort = 1,q_menu = 1,q_menuName = '武器',q_itemID = '{{[8130108]=1000}}',q_forgeCost = '{[5130111]=3,[1103]=500}',},
+
+	
+	
+	
+	--天玄
+	{q_id = 47,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5130505]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 48,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5131505]=1000}}',q_forgeCost = '{[1219]=150}',},
+	--幻魔
+	{q_id = 49,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5120505]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 50,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5121505]=1000}}',q_forgeCost = '{[1219]=150}',},
+	--神武
+	{q_id = 51,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5110505]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 52,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5111505]=1000}}',q_forgeCost = '{[1219]=150}',},
+
+	--幽泉
+	{q_id = 53,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5130507]=1000}}',q_forgeCost = '{[5130117]=3,[1219]=300}',},
+	{q_id = 54,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5131507]=1000}}',q_forgeCost = '{[5130117]=3,[1219]=300}',},
+	--魔雷
+	{q_id = 55,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5120507]=1000}}',q_forgeCost = '{[5120505]=3,[1219]=300}',},
+	{q_id = 56,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5121507]=1000}}',q_forgeCost = '{[5121505]=3,[1219]=300}',},
+	--血煞
+	{q_id = 57,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5110507]=1000}}',q_forgeCost = '{[5110505]=3,[1219]=300}',},
+	{q_id = 58,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5111507]=1000}}',q_forgeCost = '{[5111505]=3,[1219]=300}',},
+
+	--蟠龙玄天
+	{q_id = 59,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5130508]=1000}}',q_forgeCost = '{[5130507]=3,[1219]=500}',},
+	{q_id = 60,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5131508]=1000}}',q_forgeCost = '{[5131507]=3,[1219]=500}',},
+	--蟠龙幻天
+	{q_id = 61,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5120508]=1000}}',q_forgeCost = '{[5120507]=3,[1219]=500}',},
+	{q_id = 62,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5121508]=1000}}',q_forgeCost = '{[5121507]=3,[1219]=500}',},
+	--蟠龙傲天
+	{q_id = 63,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5110508]=1000}}',q_forgeCost = '{[5110507]=3,[1219]=500}',},
+	{q_id = 64,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5111508]=1000}}',q_forgeCost = '{[5111507]=3,[1219]=500}',},
+
+	--圣天
+	{q_id = 404,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5110116]=1000}}',q_forgeCost = '{[5130508]=3,[1220]=100}',},
+	{q_id = 405,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5111116]=1000}}',q_forgeCost = '{[5131508]=3,[1220]=100}',},
+
+	{q_id = 400,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5110114]=1000}}',q_forgeCost = '{[5110508]=3,[1220]=100}',},
+	{q_id = 401,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5111114]=1000}}',q_forgeCost = '{[5111508]=3,[1220]=100}',},
+
+	{q_id = 402,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5110115]=1000}}',q_forgeCost = '{[5120508]=3,[1220]=100}',},
+	{q_id = 403,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5111115]=1000}}',q_forgeCost = '{[5121508]=3,[1220]=100}',},
+
+	--不灭
+	{q_id = 504,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5110120]=1000}}',q_forgeCost = '{[5110116]=3,[1221]=100}',},
+	{q_id = 505,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5111120]=1000}}',q_forgeCost = '{[5111116]=3,[1221]=100}',},
+
+	{q_id = 502,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5110119]=1000}}',q_forgeCost = '{[5110115]=3,[1221]=100}',},
+	{q_id = 503,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5111119]=1000}}',q_forgeCost = '{[5111115]=3,[1221]=100}',},
+
+	{q_id = 500,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5110118]=1000}}',q_forgeCost = '{[5110114]=3,[1221]=100}',},
+	{q_id = 501,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[5111118]=1000}}',q_forgeCost = '{[5111114]=3,[1221]=100}',},
+
+	
+	{q_id = 506,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[8110120]=1000}}',q_forgeCost = '{[5110120]=3,[1103]=500}',},
+	{q_id = 507,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[8111120]=1000}}',q_forgeCost = '{[5111120]=3,[1103]=500}',},
+
+	{q_id = 508,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[8110119]=1000}}',q_forgeCost = '{[5110119]=3,[1103]=500}',},
+	{q_id = 509,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[8111119]=1000}}',q_forgeCost = '{[5111119]=3,[1103]=500}',},
+
+	{q_id = 510,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[8110118]=1000}}',q_forgeCost = '{[5110118]=3,[1103]=500}',},
+	{q_id = 511,q_sort = 1,q_menu = 5,q_menuName = '衣服',q_itemID = '{{[8111118]=1000}}',q_forgeCost = '{[5111118]=3,[1103]=500}',},
+
+	
+	
+	--
+	{q_id = 77,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5130705]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 78,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5120705]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 79,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5110705]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 80,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5130707]=1000}}',q_forgeCost = '{[5130705]=3,[1219]=300}',},
+	{q_id = 81,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5120707]=1000}}',q_forgeCost = '{[5120705]=3,[1219]=300}',},
+	{q_id = 82,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5110707]=1000}}',q_forgeCost = '{[5110705]=3,[1219]=300}',},
+	{q_id = 83,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5130708]=1000}}',q_forgeCost = '{[5130707]=3,[1219]=500}',},
+	{q_id = 84,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5120708]=1000}}',q_forgeCost = '{[5120707]=3,[1219]=500}',},
+	{q_id = 85,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5110708]=1000}}',q_forgeCost = '{[5110707]=3,[1219]=500}',},
+	{q_id = 600,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5110709]=1000}}',q_forgeCost = '{[5110708]=3,[1220]=100}',},
+	{q_id = 601,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5120709]=1000}}',q_forgeCost = '{[5120708]=3,[1220]=100}',},
+	{q_id = 602,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5130709]=1000}}',q_forgeCost = '{[5130708]=3,[1220]=100}',},
+	{q_id = 603,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5110710]=1000}}',q_forgeCost = '{[5110709]=3,[1221]=100}',},
+	{q_id = 604,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5120710]=1000}}',q_forgeCost = '{[5120709]=3,[1221]=100}',},
+	{q_id = 605,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[5130710]=1000}}',q_forgeCost = '{[5130709]=3,[1221]=100}',},
+
+    {q_id = 606,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[8010705]=1000}}',q_forgeCost = '{[5110710]=3,[1103]=200}',},
+	{q_id = 607,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[8020705]=1000}}',q_forgeCost = '{[5120710]=3,[1103]=200}',},
+	{q_id = 608,q_sort = 1,q_menu = 7,q_menuName = '头盔',q_itemID = '{{[8030705]=1000}}',q_forgeCost = '{[5130710]=3,[1103]=200}',},
+
+
+
+	{q_id = 86,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5130305]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 87,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5120305]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 88,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5110305]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 89,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5130307]=1000}}',q_forgeCost = '{[5130305]=3,[1219]=300}',},
+	{q_id = 90,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5120307]=1000}}',q_forgeCost = '{[5120305]=3,[1219]=300}',},
+	{q_id = 91,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5110307]=1000}}',q_forgeCost = '{[5110305]=3,[1219]=300}',},
+	{q_id = 92,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5130308]=1000}}',q_forgeCost = '{[5130307]=3,[1219]=500}',},
+	{q_id = 93,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5120308]=1000}}',q_forgeCost = '{[5120307]=3,[1219]=500}',},
+	{q_id = 94,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5110308]=1000}}',q_forgeCost = '{[5110307]=3,[1219]=500}',},
+	{q_id = 700,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5110309]=1000}}',q_forgeCost = '{[5110308]=3,[1220]=100}',},
+	{q_id = 701,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5120309]=1000}}',q_forgeCost = '{[5120308]=3,[1220]=100}',},
+	{q_id = 702,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5130309]=1000}}',q_forgeCost = '{[5130308]=3,[1220]=100}',},
+	{q_id = 703,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5110310]=1000}}',q_forgeCost = '{[5110309]=3,[1221]=100}',},
+	{q_id = 704,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5120310]=1000}}',q_forgeCost = '{[5120309]=3,[1221]=100}',},
+	{q_id = 705,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[5130310]=1000}}',q_forgeCost = '{[5130309]=3,[1221]=100}',},
+
+	{q_id = 706,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[8010305]=1000}}',q_forgeCost = '{[5110310]=3,[1103]=200}',},
+	{q_id = 707,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[8020305]=1000}}',q_forgeCost = '{[5120310]=3,[1103]=200}',},
+	{q_id = 708,q_sort = 1,q_menu = 3,q_menuName = '项链',q_itemID = '{{[8030305]=1000}}',q_forgeCost = '{[5130310]=3,[1103]=200}',},
+
+	
+	
+	
+	{q_id = 95,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5130205]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 96,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5120205]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 97,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5110205]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 98,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5130207]=1000}}',q_forgeCost = '{[5130205]=3,[1219]=300}',},
+	{q_id = 99,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5120207]=1000}}',q_forgeCost = '{[5120205]=3,[1219]=300}',},
+	{q_id = 100,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5110207]=1000}}',q_forgeCost = '{[5110205]=3,[1219]=300}',},
+	{q_id = 101,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5130208]=1000}}',q_forgeCost = '{[5130207]=3,[1219]=500}',},
+	{q_id = 102,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5120208]=1000}}',q_forgeCost = '{[5120207]=3,[1219]=500}',},
+	{q_id = 103,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5110208]=1000}}',q_forgeCost = '{[5110207]=3,[1219]=500}',},
+	{q_id = 800,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5110209]=1000}}',q_forgeCost = '{[5110208]=3,[1220]=100}',},
+	{q_id = 801,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5120209]=1000}}',q_forgeCost = '{[5120208]=3,[1220]=100}',},
+	{q_id = 802,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5130209]=1000}}',q_forgeCost = '{[5130208]=3,[1220]=100}',},
+	{q_id = 803,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5110210]=1000}}',q_forgeCost = '{[5110209]=3,[1221]=100}',},
+	{q_id = 804,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5120210]=1000}}',q_forgeCost = '{[5120209]=3,[1221]=100}',},
+	{q_id = 805,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[5130210]=1000}}',q_forgeCost = '{[5130209]=3,[1221]=100}',},
+
+    {q_id = 806,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[8010205]=1000}}',q_forgeCost = '{[5110210]=3,[1103]=200}',},
+	{q_id = 807,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[8020205]=1000}}',q_forgeCost = '{[5120210]=3,[1103]=200}',},
+	{q_id = 808,q_sort = 1,q_menu = 2,q_menuName = '戒指',q_itemID = '{{[8030205]=1000}}',q_forgeCost = '{[5130210]=3,[1103]=200}',},
+
+
+	{q_id = 104,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5130605]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 105,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5120605]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 106,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5110605]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 107,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5130607]=1000}}',q_forgeCost = '{[5130605]=3,[1219]=300}',},
+	{q_id = 108,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5120607]=1000}}',q_forgeCost = '{[5120605]=3,[1219]=300}',},
+	{q_id = 109,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5110607]=1000}}',q_forgeCost = '{[5110605]=3,[1219]=300}',},
+	{q_id = 110,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5130608]=1000}}',q_forgeCost = '{[5130607]=3,[1219]=500}',},
+	{q_id = 111,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5120608]=1000}}',q_forgeCost = '{[5120607]=3,[1219]=500}',},
+	{q_id = 112,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5110608]=1000}}',q_forgeCost = '{[5110607]=3,[1219]=500}',},
+	{q_id = 900,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5110609]=1000}}',q_forgeCost = '{[5110608]=3,[1220]=100}',},
+	{q_id = 901,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5120609]=1000}}',q_forgeCost = '{[5120608]=3,[1220]=100}',},
+	{q_id = 902,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5130609]=1000}}',q_forgeCost = '{[5130608]=3,[1220]=100}',},
+	{q_id = 903,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5110610]=1000}}',q_forgeCost = '{[5110609]=3,[1221]=100}',},
+	{q_id = 904,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5120610]=1000}}',q_forgeCost = '{[5120609]=3,[1221]=100}',},
+	{q_id = 905,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[5130610]=1000}}',q_forgeCost = '{[5130609]=3,[1221]=100}',},
+
+	{q_id = 906,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[8010605]=1000}}',q_forgeCost = '{[5110610]=3,[1103]=200}',},
+	{q_id = 907,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[8020605]=1000}}',q_forgeCost = '{[5120610]=3,[1103]=200}',},
+	{q_id = 908,q_sort = 1,q_menu = 6,q_menuName = '手镯',q_itemID = '{{[8030605]=1000}}',q_forgeCost = '{[5130610]=3,[1103]=200}',},
+
+	
+	
+
+	{q_id = 125,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5130805]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 126,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5120805]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 127,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5110805]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 128,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5130807]=1000}}',q_forgeCost = '{[5130805]=3,[1219]=300}',},
+	{q_id = 129,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5120807]=1000}}',q_forgeCost = '{[5120805]=3,[1219]=300}',},
+	{q_id = 130,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5110807]=1000}}',q_forgeCost = '{[5110805]=3,[1219]=300}',},
+	{q_id = 131,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5130808]=1000}}',q_forgeCost = '{[5130807]=3,[1219]=500}',},
+	{q_id = 132,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5120808]=1000}}',q_forgeCost = '{[5120807]=3,[1219]=500}',},
+	{q_id = 133,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5110808]=1000}}',q_forgeCost = '{[5110807]=3,[1219]=500}',},
+	{q_id = 1000,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5110809]=1000}}',q_forgeCost = '{[5110808]=3,[1220]=100}',},
+	{q_id = 1001,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5120809]=1000}}',q_forgeCost = '{[5120808]=3,[1220]=100}',},
+	{q_id = 1002,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5130809]=1000}}',q_forgeCost = '{[5130808]=3,[1220]=100}',},
+	{q_id = 1003,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5110810]=1000}}',q_forgeCost = '{[5110809]=3,[1221]=100}',},
+	{q_id = 1004,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5120810]=1000}}',q_forgeCost = '{[5120809]=3,[1221]=100}',},
+	{q_id = 1005,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[5130810]=1000}}',q_forgeCost = '{[5130809]=3,[1221]=100}',},
+
+    {q_id = 1006,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[8010805]=1000}}',q_forgeCost = '{[5110810]=3,[1103]=200}',},
+	{q_id = 1007,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[8020805]=1000}}',q_forgeCost = '{[5120810]=3,[1103]=200}',},
+	{q_id = 1008,q_sort = 1,q_menu = 8,q_menuName = '腰带',q_itemID = '{{[8030805]=1000}}',q_forgeCost = '{[5130810]=3,[1103]=200}',},
+
+	
+	
+	
+	{q_id = 146,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5130405]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 147,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5120405]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 148,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5110405]=1000}}',q_forgeCost = '{[1219]=150}',},
+	{q_id = 149,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5130407]=1000}}',q_forgeCost = '{[5130405]=3,[1219]=300}',},
+	{q_id = 150,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5120407]=1000}}',q_forgeCost = '{[5120405]=3,[1219]=300}',},
+	{q_id = 151,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5110407]=1000}}',q_forgeCost = '{[5110405]=3,[1219]=300}',},
+	{q_id = 152,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5130408]=1000}}',q_forgeCost = '{[5130407]=3,[1219]=500}',},
+	{q_id = 153,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5120408]=1000}}',q_forgeCost = '{[5120407]=3,[1219]=500}',},
+	{q_id = 154,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5110408]=1000}}',q_forgeCost = '{[5110407]=3,[1219]=500}',},
+	{q_id = 1100,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5110409]=1000}}',q_forgeCost = '{[5110408]=3,[1220]=100}',},
+	{q_id = 1101,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5120409]=1000}}',q_forgeCost = '{[5120408]=3,[1220]=100}',},
+	{q_id = 1102,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5130409]=1000}}',q_forgeCost = '{[5130408]=3,[1220]=100}',},
+	{q_id = 1103,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5110410]=1000}}',q_forgeCost = '{[5110409]=3,[1221]=100}',},
+	{q_id = 1104,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5120410]=1000}}',q_forgeCost = '{[5120409]=3,[1221]=100}',},
+	{q_id = 1105,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[5130410]=1000}}',q_forgeCost = '{[5130409]=3,[1221]=100}',},
+
+    {q_id = 1106,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[8010405]=1000}}',q_forgeCost = '{[5110410]=3,[1103]=200}',},
+	{q_id = 1107,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[8020405]=1000}}',q_forgeCost = '{[5120410]=3,[1103]=200}',},
+	{q_id = 1108,q_sort = 1,q_menu = 4,q_menuName = '靴子',q_itemID = '{{[8030405]=1000}}',q_forgeCost = '{[5130410]=3,[1103]=200}',},
+
+	
+	
+	
+	{q_id = 155,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1302]=1000}}',q_forgeCost = '{[1301]=2}',},
+	{q_id = 156,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1303]=1000}}',q_forgeCost = '{[1302]=2}',},
+	{q_id = 157,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1304]=1000}}',q_forgeCost = '{[1303]=2}',},
+	{q_id = 158,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1305]=1000}}',q_forgeCost = '{[1304]=2}',},
+	{q_id = 159,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1306]=1000}}',q_forgeCost = '{[1305]=2}',},
+	{q_id = 160,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1307]=1000}}',q_forgeCost = '{[1306]=2}',},
+	{q_id = 161,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1308]=1000}}',q_forgeCost = '{[1307]=2}',},
+	{q_id = 162,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1309]=1000}}',q_forgeCost = '{[1308]=2}',},
+	{q_id = 163,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1310]=1000}}',q_forgeCost = '{[1309]=2}',},
+	{q_id = 164,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1404]=1000}}',q_forgeCost = '{[1403]=2}',},
+	{q_id = 165,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1405]=1000}}',q_forgeCost = '{[1404]=2}',},
+	{q_id = 166,q_sort = 2,q_menu = 9,q_menuName = '矿石',q_itemID = '{{[1406]=1000}}',q_forgeCost = '{[1405]=2}',},
+	{q_id = 167,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200008]=1000}}',q_forgeCost = '{[1083]=30,[999998]=100000}',},
+	{q_id = 168,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200010]=1000}}',q_forgeCost = '{[1444]=30,[999998]=100000}',},
+	{q_id = 169,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200009]=1000}}',q_forgeCost = '{[1443]=30,[999998]=100000}',},
+	{q_id = 170,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6009]=1000}}',q_forgeCost = '{[1216]=30,[999998]=100000}',},
+	{q_id = 171,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200014]=1000}}',q_forgeCost = '{[1084]=30,[999998]=100000}',},
+	{q_id = 172,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200015]=1000}}',q_forgeCost = '{[1445]=30,[999998]=100000}',},
+	{q_id = 173,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200016]=1000}}',q_forgeCost = '{[1446]=30,[999998]=100000}',},
+	{q_id = 174,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6007]=1000}}',q_forgeCost = '{[1218]=30,[999998]=100000}',},
+	{q_id = 175,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200021]=1000}}',q_forgeCost = '{[1085]=30,[999998]=100000}',},
+	{q_id = 176,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200022]=1000}}',q_forgeCost = '{[1447]=30,[999998]=100000}',},
+	{q_id = 177,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200023]=1000}}',q_forgeCost = '{[1448]=30,[999998]=100000}',},
+	{q_id = 178,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6008]=1000}}',q_forgeCost = '{[1217]=30,[999998]=100000}',},
+	{q_id = 179,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200088]=1000}}',q_forgeCost = '{[1086]=30,[999998]=100000}',},
+	{q_id = 180,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200065]=1000}}',q_forgeCost = '{[1480]=30,[999998]=100000}',},
+	{q_id = 181,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200066]=1000}}',q_forgeCost = '{[1479]=30,[999998]=100000}',},
+	{q_id = 182,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200064]=1000}}',q_forgeCost = '{[1485]=30,[999998]=100000}',},
+	{q_id = 183,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200089]=1000}}',q_forgeCost = '{[1087]=30,[999998]=100000}',},
+	{q_id = 184,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200075]=1000}}',q_forgeCost = '{[1481]=30,[999998]=100000}',},
+	{q_id = 185,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200076]=1000}}',q_forgeCost = '{[1482]=30,[999998]=100000}',},
+	{q_id = 186,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200074]=1000}}',q_forgeCost = '{[1487]=30,[999998]=100000}',},
+	{q_id = 187,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200090]=1000}}',q_forgeCost = '{[1088]=30,[999998]=100000}',},
+	{q_id = 188,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200086]=1000}}',q_forgeCost = '{[1483]=30,[999998]=100000}',},
+	{q_id = 189,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200087]=1000}}',q_forgeCost = '{[1484]=30,[999998]=100000}',},
+	{q_id = 190,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[6200085]=1000}}',q_forgeCost = '{[1486]=30,[999998]=100000}',},
+	{q_id = 191,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[1419]=1000}}',q_forgeCost = '{[1458]=30,[999998]=50000}',},
+	{q_id = 192,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[1420]=1000}}',q_forgeCost = '{[1459]=30,[999998]=50000}',},
+	{q_id = 193,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[1421]=1000}}',q_forgeCost = '{[1460]=30,[999998]=50000}',},
+	{q_id = 194,q_sort = 2,q_menu = 7,q_menuName = '技能',q_itemID = '{{[1422]=1000}}',q_forgeCost = '{[1461]=30,[999998]=50000}',},
+
+	{q_id = 195,q_sort = 2,q_menu = 8,q_menuName = '宝盒',q_itemID = '{{[1198]=1000}}',q_forgeCost = '{[6200002]=10}',},
+	{q_id = 196,q_sort = 2,q_menu = 8,q_menuName = '宝盒',q_itemID = '{{[1199]=1000}}',q_forgeCost = '{[6200001]=10}',},
+	{q_id = 197,q_sort = 2,q_menu = 8,q_menuName = '宝盒',q_itemID = '{{[1197]=1000}}',q_forgeCost = '{[6200003]=10}',},
+
+    {q_id = 2195,q_sort = 2,q_menu = 8,q_menuName = '宝盒',q_itemID = '{{[2013]=1000}}',q_forgeCost = '{[2012]=3}',},
+	{q_id = 2196,q_sort = 2,q_menu = 8,q_menuName = '宝盒',q_itemID = '{{[2014]=1000}}',q_forgeCost = '{[2013]=3}',},
+
+
+
+	--盾牌打造,q_sort=1是打造,2是合成,两个不同的namespace,q_menu实际上是可以一样的,但是最好不一样,方便区分
+	--百炼魔魂盾
+	{q_id = 198,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5983005]=1000}}',q_forgeCost = '{[1219]=20,[1801]=20,[1802]=20}',},
+	{q_id = 199,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5982005]=1000}}',q_forgeCost = '{[1219]=20,[1801]=20,[1802]=20}',},
+	{q_id = 200,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5980005]=1000}}',q_forgeCost = '{[1219]=20,[1801]=20,[1802]=20}',},
+	--炎龙赤焰盾
+	{q_id = 201,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5980000]=1000}}',q_forgeCost = '{[5980005]=2,[1219]=40,[1801]=40,[1802]=40}',},
+	{q_id = 202,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5982000]=1000}}',q_forgeCost = '{[5982005]=2,[1219]=40,[1801]=40,[1802]=40}',},
+	{q_id = 203,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5983000]=1000}}',q_forgeCost = '{[5983005]=2,[1219]=40,[1801]=40,[1802]=40}',},
+	--赤金龙王盾
+	{q_id = 204,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5980001]=1000}}',q_forgeCost = '{[5980000]=3,[1219]=80,[1801]=80,[1802]=80}',},
+	{q_id = 205,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5982001]=1000}}',q_forgeCost = '{[5982000]=3,[1219]=80,[1801]=80,[1802]=80}',},
+	{q_id = 206,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5983001]=1000}}',q_forgeCost = '{[5983000]=3,[1219]=80,[1801]=80,[1802]=80}',},
+	--鬼脸白虎盾
+	{q_id = 207,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5980002]=1000}}',q_forgeCost = '{[5980001]=4,[1219]=160,[1801]=160,[1802]=160}',},
+	{q_id = 208,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5982002]=1000}}',q_forgeCost = '{[5982001]=4,[1219]=160,[1801]=160,[1802]=160}',},
+	{q_id = 209,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5983002]=1000}}',q_forgeCost = '{[5983001]=4,[1219]=160,[1801]=160,[1802]=160}',},
+	--朱雀凤凰盾
+	{q_id = 210,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5980003]=1000}}',q_forgeCost = '{[5980002]=5,[1219]=320,[1801]=320,[1802]=320}',},
+	{q_id = 211,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5982003]=1000}}',q_forgeCost = '{[5982002]=5,[1219]=320,[1801]=320,[1802]=320}',},
+	{q_id = 212,q_sort = 2,q_menu = 10,q_menuName = '盾牌',q_itemID = '{{[5983003]=1000}}',q_forgeCost = '{[5983002]=5,[1219]=320,[1801]=320,[1802]=320}',},
+
+	--战旗相关
+	--卯日旗
+	{q_id = 250,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300000]=1000}}',q_forgeCost = '{[1103]=20,[1490]=20,[1803]=20}',},
+	{q_id = 251,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300001]=1000}}',q_forgeCost = '{[1103]=20,[1490]=20,[1803]=20}',},
+	{q_id = 252,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300002]=1000}}',q_forgeCost = '{[1103]=20,[1490]=20,[1803]=20}',},
+
+	--奎木旗
+	{q_id = 253,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300010]=1000}}',q_forgeCost = '{[1103]=40,[1490]=40,[1803]=40,[8300000]=2}',},
+	{q_id = 254,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300011]=1000}}',q_forgeCost = '{[1103]=40,[1490]=40,[1803]=40,[8300001]=2}',},
+	{q_id = 255,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300012]=1000}}',q_forgeCost = '{[1103]=40,[1490]=40,[1803]=40,[8300002]=2}',},
+
+	--星雅旗
+	{q_id = 256,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300020]=1000}}',q_forgeCost = '{[1103]=80,[1490]=80,[1803]=80,[8300010]=3}',},
+	{q_id = 257,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300021]=1000}}',q_forgeCost = '{[1103]=80,[1490]=80,[1803]=80,[8300011]=3}',},
+	{q_id = 258,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300022]=1000}}',q_forgeCost = '{[1103]=80,[1490]=80,[1803]=80,[8300012]=3}',},
+
+	--天虎祝融旗
+	{q_id = 259,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300030]=1000}}',q_forgeCost = '{[1103]=160,[1490]=160,[1804]=80,[8300020]=4}',},
+	{q_id = 260,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300031]=1000}}',q_forgeCost = '{[1103]=160,[1490]=160,[1804]=80,[8300021]=4}',},
+	{q_id = 261,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300032]=1000}}',q_forgeCost = '{[1103]=160,[1490]=160,[1804]=80,[8300022]=4}',},
+
+	--霸世皇龙旗
+	{q_id = 262,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300040]=1000}}',q_forgeCost = '{[1103]=320,[1490]=320,[1804]=160,[8300030]=5}',},
+	{q_id = 263,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300041]=1000}}',q_forgeCost = '{[1103]=320,[1490]=320,[1804]=160,[8300031]=5}',},
+	{q_id = 264,q_sort = 2,q_menu = 11,q_menuName = '战旗',q_itemID = '{{[8300042]=1000}}',q_forgeCost = '{[1103]=320,[1490]=320,[1804]=160,[8300032]=5}',},
+
+
+
+	--特戒合成
+	{q_id = 279,q_sort = 2,q_menu = 13,q_menuName = '神戒',q_itemID = '{{[60001]=1000}}',q_forgeCost = '{[70001]=100,[1103]=100}',},
+	{q_id = 280,q_sort = 2,q_menu = 13,q_menuName = '特戒',q_itemID = '{{[60002]=1000}}',q_forgeCost = '{[70002]=100,[1103]=100}',},
+	{q_id = 281,q_sort = 2,q_menu = 13,q_menuName = '特戒',q_itemID = '{{[60003]=1000}}',q_forgeCost = '{[70003]=100,[1103]=100}',},
+
+	{q_id = 282,q_sort = 2,q_menu = 13,q_menuName = '特戒',q_itemID = '{{[60004]=1000}}',q_forgeCost = '{[70004]=100,[1103]=100}',},
+	{q_id = 283,q_sort = 2,q_menu = 13,q_menuName = '特戒',q_itemID = '{{[60005]=1000}}',q_forgeCost = '{[70005]=100,[1103]=100}',},
+	{q_id = 284,q_sort = 2,q_menu = 13,q_menuName = '魔戒',q_itemID = '{{[60006]=1000}}',q_forgeCost = '{[70006]=100,[1103]=100}',},
+
+	{q_id = 285,q_sort = 2,q_menu = 15,q_menuName = '圣戒',q_itemID = '{{[6000001]=1000}}',q_forgeCost = '{[1809]=100,[1103]=500}',},
+	{q_id = 286,q_sort = 2,q_menu = 15,q_menuName = '特戒',q_itemID = '{{[6000002]=1000}}',q_forgeCost = '{[1809]=100,[1103]=500}',},
+	{q_id = 287,q_sort = 2,q_menu = 15,q_menuName = '特戒',q_itemID = '{{[6000003]=1000}}',q_forgeCost = '{[1809]=100,[1103]=500}',},
+   
+    {q_id = 288,q_sort = 2,q_menu = 15,q_menuName = '特戒',q_itemID = '{{[6000010]=1000}}',q_forgeCost = '{[1810]=100,[1103]=500}',},
+    {q_id = 289,q_sort = 2,q_menu = 15,q_menuName = '圣戒',q_itemID = '{{[6000011]=1000}}',q_forgeCost = '{[1810]=100,[1103]=500}',},
+	{q_id = 290,q_sort = 2,q_menu = 15,q_menuName = '特戒',q_itemID = '{{[6000012]=1000}}',q_forgeCost = '{[1810]=100,[1103]=500}',},
+	
+	{q_id = 291,q_sort = 2,q_menu = 15,q_menuName = '特戒',q_itemID = '{{[6000020]=1000}}',q_forgeCost = '{[1812]=100,[1103]=500}',},
+    {q_id = 292,q_sort = 2,q_menu = 15,q_menuName = '特戒',q_itemID = '{{[6000021]=1000}}',q_forgeCost = '{[1812]=100,[1103]=500}',},
+	{q_id = 293,q_sort = 2,q_menu = 15,q_menuName = '特戒',q_itemID = '{{[6000022]=1000}}',q_forgeCost = '{[1812]=100,[1103]=500}',},
+	
+	{q_id = 294,q_sort = 2,q_menu = 16,q_menuName = '王戒',q_itemID = '{{[6000030]=1000}}',q_forgeCost = '{[1109]=100,[1103]=500}',},
+	{q_id = 295,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000031]=1000}}',q_forgeCost = '{[1109]=100,[1103]=500}',},
+	{q_id = 296,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000032]=1000}}',q_forgeCost = '{[1109]=100,[1103]=500}',},
+	
+	{q_id = 2291,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000040]=1000}}',q_forgeCost = '{[1811]=100,[1103]=500}',},
+    {q_id = 2292,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000041]=1000}}',q_forgeCost = '{[1811]=100,[1103]=500}',},
+	{q_id = 2293,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000042]=1000}}',q_forgeCost = '{[1811]=100,[1103]=500}',},
+	
+	{q_id = 2294,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000050]=1000}}',q_forgeCost = '{[1813]=100,[1103]=500}',},
+	{q_id = 2295,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000051]=1000}}',q_forgeCost = '{[1813]=100,[1103]=500}',},
+	{q_id = 2296,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000052]=1000}}',q_forgeCost = '{[1813]=100,[1103]=500}',},
+	
+    {q_id = 2297,q_sort = 2,q_menu = 16,q_menuName = '神兵',q_itemID = '{{[6000043]=1000}}',q_forgeCost = '{[1811]=500,[1103]=1000}',},
+	{q_id = 2298,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000044]=1000}}',q_forgeCost = '{[1811]=500,[1103]=1000}',},
+	{q_id = 2299,q_sort = 2,q_menu = 16,q_menuName = '特戒',q_itemID = '{{[6000045]=1000}}',q_forgeCost = '{[1811]=500,[1103]=1000}',},
+	
+	
+    
+	{q_id = 1309, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2028]=1000}}', q_forgeCost = '{[1103]=10}',}, 
+    {q_id = 1310, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2029]=1000}}', q_forgeCost = '{[1103]=20}',}, 
+    {q_id = 1311, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2030]=1000}}', q_forgeCost = '{[1103]=30}',}, 
+    {q_id = 312, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2031]=1000}}', q_forgeCost = '{[1103]=40}',}, 
+    {q_id = 313, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2032]=1000}}', q_forgeCost = '{[1103]=50}',}, 
+    {q_id = 314, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2033]=1000}}', q_forgeCost = '{[1103]=100}',}, 
+    {q_id = 315, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2034]=1000}}', q_forgeCost = '{[1103]=150}',}, 
+    {q_id = 316, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2035]=1000}}', q_forgeCost = '{[1103]=200}',}, 
+    {q_id = 317, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2036]=1000}}', q_forgeCost = '{[1103]=300}',}, 
+    {q_id = 318, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2037]=1000}}', q_forgeCost = '{[1103]=400}',}, 
+    {q_id = 319, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2038]=1000}}', q_forgeCost = '{[1103]=500}',}, 
+   -- {q_id = 320, q_sort = 2, q_menu = 18, q_menuName = '灵兽', q_itemID = '{{[2099]=1000}}', q_forgeCost = '{[1103]=600}',}, 
+
+	
+
+
+};
+return Items
