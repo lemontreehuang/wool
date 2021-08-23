@@ -7,7 +7,7 @@ function so8($a,$b,$c,$d){
     mysql_select_db($d, $so8) ;
     return $so8;
 }
-$db=array('127.0.0.1','root','gmduo.com','longwen');
+$db=array('127.0.0.1','root','wool.com','longwen');
 switch($_POST[t3]) {
 case '开始合区':{
 $b=array($_POST[b],$_POST[b2]);
