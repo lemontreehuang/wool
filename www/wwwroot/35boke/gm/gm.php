@@ -6,11 +6,11 @@ $key='//Powered by一阵风(QQ76891828)  勿删';
 ini_set('date.timezone','Asia/Shanghai');
 date_default_timezone_set ( 'PRC' );//时区
 header("Content-type:text/html;charset=utf-8"); 
-$gmcode = 'gmduo.com';  //GM码
+$gmcode = 'wool.com';  //GM码
 $AM_CONFIG = array(
 	"db_host" => "127.0.0.1",          //数据库IP
 	"db_username" => "root",			//数据库帐号
-	"db_password" => "gmduo.com",		//数据库密码
+	"db_password" => "wool.com",		//数据库密码
 	"dbport" => 3306,
 	"dbgame" => "longwen",   //数据库
 	"gmkey"	=>"d694cb787f9c4433004e957418188090",
