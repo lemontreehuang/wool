@@ -1,0 +1,24 @@
+﻿local Items = {
+	{q_suidId = 1001,q_suitNum = 8,q_defence_min = 30,q_defence_max = 50,q_magic_defence_min = 30,q_magic_defence_max = 50,Discript = '能极大的提升自身防御力+(30-50)',},
+	{q_suidId = 1002,q_suitNum = 8,Special_Skill1 = 1,Special_Num1 = 10,Discript = '单体攻击具有吸血效果+100',},
+	{q_suidId = 1003,q_suitNum = 8,Special_Skill1 = 1,Special_Num1 = 10,Discript = '单体攻击具有吸血效果+200',},
+	{q_suidId = 1004,q_suitNum = 8,Special_Skill1 = 1,Special_Num1 = 20,Special_Skill2 = 2,Special_Num2 = 10,Discript = '单体攻击具有吸血效果，且反弹玩家单体技能的伤害+100',},
+	{q_suidId = 1005,q_suitNum = 8,Special_Skill1 = 1,Special_Num1 = 30,Special_Skill2 = 2,Special_Num2 = 20,Discript = '单体攻击具有吸血效果，且反弹玩家单体技能的伤害+200',},
+	{q_suidId = 1006,q_suitNum = 8,Special_Skill1 = 1,Special_Num1 = 40,Special_Skill2 = 2,Special_Num2 = 30,Discript = '单体攻击具有吸血效果，且反弹玩家单体技能的伤害+300',},--
+
+	{q_suidId = 2001,q_suitNum = 8,q_defence_min = 30,q_defence_max = 50,q_magic_defence_min = 30,q_magic_defence_max = 50,Discript = '能极大的提升自身防御力+(30-50)',},
+	{q_suidId = 2002,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 10,Discript = '增加1500点生命值上限',},
+	{q_suidId = 2003,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 30,Discript = '增加3000点生命值上限',},
+	{q_suidId = 2004,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 50,Special_Skill2 = 1,Special_Num2 = 10,Discript = '增加5000点生命值上限，且单体攻击具有吸血效果+100',},
+	{q_suidId = 2005,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 80,Special_Skill2 = 1,Special_Num2 = 20,Discript = '增加8000点生命值上限，且单体攻击具有吸血效果+200',},
+	{q_suidId = 2006,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 100,Special_Skill2 = 1,Special_Num2 = 30,Discript = '增加10000点生命值上限，且单体攻击具有吸血效果+300',},
+
+	{q_suidId = 3001,q_suitNum = 8,q_defence_min = 30,q_defence_max = 50,q_magic_defence_min = 30,q_magic_defence_max = 50,Discript = '能极大的提升自身防御力+(30-50)',},
+	{q_suidId = 3002,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 10,Discript = '增加1500点生命值上限',},
+	{q_suidId = 3003,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 30,Discript = '增加3000点生命值上限',},
+	{q_suidId = 3004,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 50,Special_Skill2 = 4,Special_Num2 = 1,Discript = '增加5000点生命值上限，且施毒术、强化施毒术技能等级+1',},
+	{q_suidId = 3005,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 80,Special_Skill2 = 4,Special_Num2 = 2,Discript = '增加8000点生命值上限，且施毒术、强化施毒术技能等级+2',},
+	{q_suidId = 3006,q_suitNum = 8,Special_Skill1 = 3,Special_Num1 = 100,Special_Skill2 = 4,Special_Num2 = 3,Discript = '增加10000点生命值上限，且施毒术、强化施毒术技能等级+3',},
+
+};
+return Items
