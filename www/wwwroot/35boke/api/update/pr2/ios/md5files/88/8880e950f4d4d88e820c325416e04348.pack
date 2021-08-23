@@ -1,0 +1,51 @@
+﻿local Items = {
+
+	{q_titleID = 1064,q_titleName = '沙城城主',q_pic = 1,q_sp = '沙城行会会长',school = 1,q_sp = '物理攻击180-280，生命1800，闪避20，命中20，暴击20，战斗力5000',school = 1,q_attack_min = 180,q_attack_max = 260,q_max_hp = 1800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 5000,},
+	{q_titleID = 1065,q_titleName = '沙城城主',q_pic = 1,q_sp = '沙城行会会长',school = 2,q_sp = '魔法攻击180-280，生命1800，闪避20，命中20，暴击20，战斗力5000',school = 2,q_magic_attack_min = 180,q_magic_attack_max = 260,q_max_hp = 1800,q_hit = 20,q_dodge = 10,q_crit = 20,battle = 5000,},
+	{q_titleID = 1066,q_titleName = '沙城城主',q_pic = 1,q_sp = '沙城行会会长',school = 3,q_sp = '道术攻击180-280，生命1800，闪避20，命中20，暴击20，战斗力5000',school = 3,q_sc_attack_min = 180,q_sc_attack_max = 260,q_max_hp = 1800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 5000,},
+
+	{q_titleID = 1091,q_titleName = '人见人爱',q_pic = 29,q_sp = '魅力榜结算榜首',q_sp = '物理攻击80-100，生命1200，暴击15，战斗力3000',school = 1,q_attack_min = 80,q_attack_max = 100,q_max_hp = 1200,q_crit = 15,battle = 3000,},
+	{q_titleID = 1092,q_titleName = '人见人爱',q_pic = 29,q_sp = '魅力榜结算榜首',q_sp = '魔法攻击80-100，生命1200，暴击15，战斗力3000',school = 2,q_magic_attack_min = 80,q_magic_attack_max = 100,q_max_hp = 1200,q_crit = 15,battle = 3000,},
+	{q_titleID = 1093,q_titleName = '人见人爱',q_pic = 29,q_sp = '魅力榜结算榜首',q_sp = '道术攻击80-100，生命1200，暴击15，战斗力3000',school = 3,q_sc_attack_min = 80,q_sc_attack_max = 100,q_max_hp = 1200,q_crit = 15,battle = 3000,},
+
+	{q_titleID = 1097,q_titleName = '精英指挥官',q_pic = 65,q_sp = '活动赠送',q_sp = '物理攻击180-200，生命2200，暴击25，战斗力4000',school = 1,q_attack_min = 180,q_attack_max = 200,q_max_hp = 2200,q_crit = 25,battle = 4000,},
+	{q_titleID = 1098,q_titleName = '精英指挥官',q_pic = 65,q_sp = '活动赠送',q_sp = '魔法攻击180-200，生命2200，暴击25，战斗力4000',school = 2,q_magic_attack_min = 180,q_magic_attack_max = 200,q_max_hp = 2200,q_crit = 25,battle = 4000,},
+	{q_titleID = 1099,q_titleName = '精英指挥官',q_pic = 65,q_sp = '活动赠送',q_sp = '道术攻击180-200，生命2200，暴击25，战斗力4000',school = 3,q_sc_attack_min = 180,q_sc_attack_max = 200,q_max_hp = 2200,q_crit = 25,battle = 4000,},
+
+	{q_titleID = 1100,q_titleName = '明星公会长',q_pic = 66,q_sp = '活动赠送',q_sp = '物理攻击280-300，生命3200，暴击35，战斗力5000',school = 1,q_attack_min = 280,q_attack_max = 300,q_max_hp = 3200,q_crit = 35,battle = 5000,},
+	{q_titleID = 1101,q_titleName = '明星公会长',q_pic = 66,q_sp = '活动赠送',q_sp = '魔法攻击280-300，生命3200，暴击35，战斗力5000',school = 2,q_magic_attack_min = 280,q_magic_attack_max = 300,q_max_hp = 3200,q_crit = 35,battle = 5000,},
+	{q_titleID = 1102,q_titleName = '明星公会长',q_pic = 66,q_sp = '活动赠送',q_sp = '道术攻击280-300，生命3200，暴击35，战斗力5000',school = 3,q_sc_attack_min = 280,q_sc_attack_max = 300,q_max_hp = 3200,q_crit = 35,battle = 5000,},
+
+	{q_titleID = 1103,q_titleName = '传世红人',q_pic = 64,q_sp = '活动赠送',q_sp = '物理攻击80-100，生命1200，暴击15，战斗力3000',school = 1,q_attack_min = 80,q_attack_max = 100,q_max_hp = 1200,q_crit = 15,battle = 3000,},
+	{q_titleID = 1104,q_titleName = '传世红人',q_pic = 64,q_sp = '活动赠送',q_sp = '魔法攻击80-100，生命1200，暴击15，战斗力3000',school = 2,q_magic_attack_min = 80,q_magic_attack_max = 100,q_max_hp = 1200,q_crit = 15,battle = 3000,},
+	{q_titleID = 1105,q_titleName = '传世红人',q_pic = 64,q_sp = '活动赠送',q_sp = '道术攻击80-100，生命1200，暴击15，战斗力3000',school = 3,q_sc_attack_min = 80,q_sc_attack_max = 100,q_max_hp = 1200,q_crit = 15,battle = 3000,},
+
+	{q_titleID = 2000,q_titleName = '中州王',q_pic = 1,q_sp = '成为中州王',school = 1,q_sp = '物理攻击3000-3000，生命28000，闪避120，命中120，暴击120，战斗力30000',school = 1,q_attack_min = 3000,q_attack_max = 3000,q_max_hp = 28000,q_hit = 120,q_dodge = 120,q_crit = 120,battle = 30000,},
+	{q_titleID = 2001,q_titleName = '中州王',q_pic = 1,q_sp = '成为中州王',school = 2,q_sp = '魔法攻击3000-3000，生命28000，闪避120，命中120，暴击120，战斗力30000',school = 2,q_magic_attack_min = 3000,q_magic_attack_max = 3000,q_max_hp = 28000,q_hit = 120,q_dodge = 120,q_crit = 120,battle = 30000,},
+	{q_titleID = 2002,q_titleName = '中州王',q_pic = 1,q_sp = '成为中州王',school = 3,q_sp = '道术攻击3000-3000，生命28000，闪避120，命中120，暴击120，战斗力30000',school = 3,q_sc_attack_min = 3000,q_sc_attack_max = 3000,q_max_hp = 28000,q_hit = 120,q_dodge = 120,q_crit = 120,battle = 30000,},
+
+	{q_titleID = 2003,q_titleName = '天下第一',q_pic = 4,q_sp = '成为天下第一',school = 1,sex = 1,q_sp = '物理攻击800-1000，生命10000，闪避80，命中80，暴击80，战斗力16000',q_attack_min = 800,q_attack_max = 1000,q_max_hp = 10000,q_hit = 80,q_dodge = 80,q_crit = 80,battle = 16000,},
+	{q_titleID = 2004,q_titleName = '天下第一',q_pic = 7,q_sp = '成为天下第一',school = 1,sex = 2,q_sp = '物理攻击800-1000，生命10000，闪避80，命中80，暴击80，战斗力16000',q_attack_min = 800,q_attack_max = 1000,q_max_hp = 10000,q_hit = 80,q_dodge = 80,q_crit = 80,battle = 16000,},
+	{q_titleID = 2005,q_titleName = '天下第一',q_pic = 3,q_sp = '成为天下第一',school = 2,sex = 1,q_sp = '魔法攻击800-1000，生命10000，闪避80，命中80，暴击80，战斗力16000',q_magic_attack_min = 800,q_magic_attack_max = 1000,q_max_hp = 10000,q_hit = 80,q_dodge = 80,q_crit = 80,battle = 16000,},
+	{q_titleID = 2006,q_titleName = '天下第一',q_pic = 6,q_sp = '成为天下第一',school = 2,sex = 2,q_sp = '魔法攻击800-1000，生命10000，闪避80，命中80，暴击80，战斗力16000',q_magic_attack_min = 800,q_magic_attack_max = 1000,q_max_hp = 10000,q_hit = 80,q_dodge = 80,q_crit = 80,battle = 16000,},
+	{q_titleID = 2007,q_titleName = '天下第一',q_pic = 2,q_sp = '成为天下第一',school = 3,sex = 1,q_sp = '道术攻击800-1000，生命10000，闪避80，命中80，暴击80，战斗力16000',q_sc_attack_min = 800,q_sc_attack_max = 1000,q_max_hp = 10000,q_hit = 80,q_dodge = 80,q_crit = 80,battle = 16000,},
+	{q_titleID = 2008,q_titleName = '天下第一',q_pic = 5,q_sp = '成为天下第一',school = 3,sex = 2,q_sp = '道术攻击800-1000，生命10000，闪避80，命中80，暴击80，战斗力16000',q_sc_attack_min = 800,q_sc_attack_max = 1000,q_max_hp = 10000,q_hit = 80,q_dodge = 80,q_crit = 80,battle = 16000,},
+	
+	{q_titleID = 2024,q_titleName = '威震四海',q_pic = 95,q_sp = '成为威震四海',school = 1,q_sp = '物理攻击580-660，生命6800，闪避20，命中20，暴击20，战斗力10000',school = 1,q_attack_min = 580,q_attack_max = 660,q_max_hp = 6800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 10000,},
+	{q_titleID = 2025,q_titleName = '威震四海',q_pic = 95,q_sp = '成为威震四海',school = 2,q_sp = '魔法攻击580-660，生命6800，闪避20，命中20，暴击20，战斗力10000',school = 2,q_magic_attack_min = 580,q_magic_attack_max = 660,q_max_hp = 6800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 10000,},
+	{q_titleID = 2026,q_titleName = '威震四海',q_pic = 95,q_sp = '成为威震四海',school = 3,q_sp = '道术攻击580-660，生命6800，闪避20，命中20，暴击20，战斗力10000',school = 3,q_sc_attack_min = 580,q_sc_attack_max = 660,q_max_hp = 6800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 10000,},
+
+	
+	{q_titleID = 2027,q_titleName = '唯我独尊',q_pic = 96,q_sp = '成为唯我独尊',school = 1,q_sp = '物理攻击480-560，生命5800，闪避20，命中20，暴击20，战斗力9000',school = 1,q_attack_min = 480,q_attack_max = 560,q_max_hp = 5800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 9000,},
+	{q_titleID = 2028,q_titleName = '唯我独尊',q_pic = 96,q_sp = '成为唯我独尊',school = 2,q_sp = '魔法攻击480-560，生命5800，闪避20，命中20，暴击20，战斗力9000',school = 2,q_magic_attack_min = 480,q_magic_attack_max = 560,q_max_hp = 5800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 9000,},
+	{q_titleID = 2029,q_titleName = '唯我独尊',q_pic = 96,q_sp = '成为唯我独尊',school = 3,q_sp = '道术攻击480-560，生命5800，闪避20，命中20，暴击20，战斗力9000',school = 3,q_sc_attack_min = 480,q_sc_attack_max = 560,q_max_hp = 5800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 9000,},
+
+	{q_titleID = 2030,q_titleName = '超级玩家',q_pic = 159,q_sp = '成为超级玩家',school = 1,q_sp = '物理攻击380-460，生命4800，闪避20，命中20，暴击20，战斗力8000',school = 1,q_attack_min = 380,q_attack_max = 460,q_max_hp = 4800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 8000,},
+	{q_titleID = 2031,q_titleName = '超级玩家',q_pic = 159,q_sp = '成为超级玩家',school = 2,q_sp = '魔法攻击380-460，生命4800，闪避20，命中20，暴击20，战斗力8000',school = 2,q_magic_attack_min = 380,q_magic_attack_max = 460,q_max_hp = 4800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 8000,},
+	{q_titleID = 2032,q_titleName = '超级玩家',q_pic = 159,q_sp = '成为超级玩家',school = 3,q_sp = '道术攻击380-460，生命4800，闪避20，命中20，暴击20，战斗力8000',school = 3,q_sc_attack_min = 380,q_sc_attack_max = 460,q_max_hp = 4800,q_hit = 20,q_dodge = 20,q_crit = 20,battle = 8000,},
+
+	
+	
+	
+};
+return Items
