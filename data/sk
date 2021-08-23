@@ -3,7 +3,7 @@
 HOSTNAME="localhost"
 PORT="3306"
 USERNAME="root"
-PASSWORD="35boke.com"
+PASSWORD="wool.com"
 
 DB1="longwen"
 DB2="longwen_name"
