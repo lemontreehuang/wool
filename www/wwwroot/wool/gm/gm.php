@@ -6,7 +6,7 @@ $key='//Powered by一阵风(QQ76891828)  勿删';
 ini_set('date.timezone','Asia/Shanghai');
 date_default_timezone_set ( 'PRC' );//时区
 header("Content-type:text/html;charset=utf-8"); 
-$gmcode = 'wool.com';  //GM码
+$gmcode = '888888';  //GM码
 $AM_CONFIG = array(
 	"db_host" => "127.0.0.1",          //数据库IP
 	"db_username" => "root",			//数据库帐号
