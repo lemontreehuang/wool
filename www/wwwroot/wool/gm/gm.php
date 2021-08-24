@@ -1,388 +1,449 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<?php
+//========================================================================
+$key='//Powered by一阵风(QQ76891828)  勿删';
+//========================================================================
+//error_reporting(0);
+ini_set('date.timezone','Asia/Shanghai');
+date_default_timezone_set ( 'PRC' );//时区
+header("Content-type:text/html;charset=utf-8"); 
+$gmcode = 'wool.com';  //GM码
+$AM_CONFIG = array(
+	"db_host" => "127.0.0.1",          //数据库IP
+	"db_username" => "root",			//数据库帐号
+	"db_password" => "wool.com",		//数据库密码
+	"dbport" => 3306,
+	"dbgame" => "longwen",   //数据库
+	"gmkey"	=>"d694cb787f9c4433004e957418188090",
+	"sa" => "%e7%89%88%e6%9c%ac+Powered+by+%e4%b8%ad%e5%9b%bd%e6%ba%90%e7%a0%81%e7%bd%91+%e5%8b%bf%e6%94%b9",
+	"log" =>"/data/sbin/logs/TLog/Tlog.1.0_",
+	);	
+$user_IP = ($_SERVER["HTTP_VIA"]) ? $_SERVER["HTTP_X_FORWARDED_FOR"] : $_SERVER["REMOTE_ADDR"];
+$user_IP = ($user_IP) ? $user_IP : $_SERVER["REMOTE_ADDR"];	
+$checknum =	$_POST['checknum'];
+$qu  = $_POST['qu'];
+$date=date('Y-m-d H:i:s');
+$item1 = array('222222', '888888', '999998', '777777', '333333', '444444', '555555', '666666', '111111');
+if ($_POST){  
+if(md5($key)==$AM_CONFIG['gmkey']){ if($checknum==$gmcode){	
+    switch ($_POST['sub']){
+		case 'mail': 
+				if(empty($qu)){
+					echo "<script>alert('请选择分区');history.go(-1)</script>";
+					exit;
+				}
+				$name=trim($_POST['name']);
+				$con = @mysql_connect($AM_CONFIG['db_host'],$AM_CONFIG['db_username'],$AM_CONFIG['db_password'],$AM_CONFIG['dbport']);	
+				mysql_select_db($AM_CONFIG['dbgame'],$con);
+				mysql_query("set names 'latin1'"); //数据库输出编码
+				$result = mysql_query("SELECT * FROM player WHERE Name = '{$name}' or UserID = '{$name}' limit 1");
+				if($result&&mysql_num_rows($result)>0){
+				$row = mysql_fetch_array($result);
+				}
+				$uid    = $row['RoleID'];
+				if(empty($uid)){
+						echo "<script>alert('数据库无此角色');history.go(-1)</script>";
+						exit;
+					}
+				$itemid = trim($_POST['mailid']);
+					if(empty($itemid)){
+						echo "<script>alert('请选择物品');history.go(-1)</script>";
+						exit;
+					}				
+				$num = trim($_POST['num']);
+					if(empty($num)){
+						echo "<script>alert('数量为空');history.go(-1)</script>";
+						exit;
+					}
+				$log='mail'.date('Y-m-d').'.log';	
+				// rem QQ一阵风 2020-05-13 12:50
+			
+		
+				foreach ($item1  as  $k => $v) {
+					if($v == $itemid){
+						$items=$itemid.'-'.$num.'-0;';
+						break;
+					}else{
+					$items=$itemid.'-'.$num.'-1;';
+					}	
+				}
+				file_put_contents('log.txt',$items.PHP_EOL,FILE_APPEND);
+				$it='';
+				$it2=explode('-',$items);
+				$t=$user.'｜物品｜'.$it2[0];
+				$it1=item($it2[0]);
+				$it3=str_pad(itemnum($it2[1],$it2[2]),2,'0',STR_PAD_LEFT);
+				$it2=item($it2[1]);
+				$result = mysql_query("INSERT INTO `GM_LOG` (`a1`, `a2`, `a3`) VALUES ('平台邮件', '$t', '$num')");
+				$it='52'.$it3.'08'.$it1.'10'.$it2.'2801'.$it;
+				$it1='3018'.$it;
+				$result1= mysql_query("INSERT INTO `email` (`roleID`, `emailIndex`, `datas`) VALUES ('$uid',CONCAT('00',HEX(UNIX_TIMESTAMP()),'43820C'), CAST(UNHEX('$it1') AS CHAR))") or die(mysql_error());	
+			   if (result1){
+				   file_put_contents($log,$date."\t".$qu."区 \t"."玩家".$name."\t".$itemid."\t".$num."\t"."发送成功\t".$user_IP.PHP_EOL,FILE_APPEND);
+				mysql_close($con);	
+				echo "<script>alert('发送成功');history.go(-1)</script>" ;
+				exit;
+			   } else {
+				   mysql_close($con);	
+				echo   "<script>alert('发送失败！！');history.go(-1)</script>" ;
+				exit;
+			   }
+			   break;
+		case 'allmail': 
+				$con = @mysql_connect($AM_CONFIG['db_host'],$AM_CONFIG['db_username'],$AM_CONFIG['db_password'],$AM_CONFIG['dbport']);	
+				mysql_select_db($AM_CONFIG['dbgame'],$con);
+				mysql_query("set names 'latin1'"); //数据库输出编码
+				$itemid = trim($_POST['mailid']);
+					if(empty($itemid)){
+						echo "<script>alert('请选择物品');history.go(-1)</script>";
+						exit;
+					}				
+				$num = trim($_POST['num']);
+					if(empty($num)){
+						echo "<script>alert('数量为空');history.go(-1)</script>";
+						exit;
+					}
+				$log='mail'.date('Y-m-d').'.log';	
+				// rem QQ一阵风 2020-05-13 12:50					
+				foreach ($item1  as  $k => $v) {
+					if($v == $itemid){
+					$items=$itemid.'-'.$num.'-0;';
+						break;
+					}else{
+					$items=$itemid.'-'.$num.'-1;';
+					break;
+					}	
+				}
+				//file_put_contents('log.txt',$items.PHP_EOL,FILE_APPEND);
+				$it2=explode('-',$items);
+				//$t=$user.'｜物品｜'.$it2[0];
+				$it1=item($it2[0]);
+				$it3=str_pad(itemnum($it2[1],$it2[2]),2,'0',STR_PAD_LEFT);
+				$it2=item($it2[1]);
+				//$result = mysql_query("INSERT INTO `GM_LOG` (`a1`, `a2`, `a3`) VALUES ('平台邮件', '$t', '$num')");
+				$it='52'.$it3.'08'.$it1.'10'.$it2.'2801'.$it;
+				$it1='3018'.$it;
+				$sql = "SELECT `RoleID`,`Name` FROM player";
+				$result2 = mysql_query($sql);
+				if ($result2 && mysql_num_rows($result2) > 0) {
+					while ($dwID = mysql_fetch_array($result2, MYSQL_NUM)) {
+						//file_put_contents('log.txt',$it1.PHP_EOL,FILE_APPEND);
+						$t = $dwID[1].'｜物品｜'.$it2[0];
+						mysql_query("INSERT INTO `GM_LOG` (`a1`, `a2`, `a3`) VALUES ('全服邮件', '$t', '$num')");
+						mysql_query("INSERT INTO `email` (`roleID`, `emailIndex`, `datas`) VALUES ('$dwID[0]',CONCAT('00',HEX(UNIX_TIMESTAMP()),'43820C'), CAST(UNHEX('$it1') AS CHAR))")or die(mysql_error());
+					}
+					 file_put_contents($log,$date."\t".$qu."区 \t"."全服邮件".$itemid."\t".$num."\t"."发送成功\t".$user_IP.PHP_EOL,FILE_APPEND);
+					echo "<script>alert('全服邮件成功，重上游戏到账');history.go(-1)</script>";
+					exit;
+				}			
+			break;
+		case 'fh':	
+				if(empty($qu)){
+					echo "<script>alert('请选择分区');history.go(-1)</script>";
+					exit;
+				}
+				$name=trim($_POST['name']);
+				$con = @mysql_connect($AM_CONFIG['db_host'],$AM_CONFIG['db_username'],$AM_CONFIG['db_password'],$AM_CONFIG['dbport']);	
+				mysql_select_db($AM_CONFIG['dbgame'],$con);
+				mysql_query("set names 'latin1'"); //数据库输出编码
+				$result = mysql_query("SELECT * FROM player WHERE Name = '{$name}' limit 1");
+				if($result&&mysql_num_rows($result)>0){
+				$row = mysql_fetch_array($result);
+				}
+				$uid    = $row['RoleID'];
+				if(empty($uid)){
+						echo "<script>alert('数据库无此角色');history.go(-1)</script>";
+						exit;
+					}
+				mysql_query("replace into lockplayer(RoleID, LockDate) value('$uid', '-1')");
+				mysql_query("INSERT INTO `GM_LOG` (`a1`, `a2`) VALUES ('封号', '$name')");
+				echo '<script>alert("查封['.$name.']成功");history.go(-1)</script>';	
+				exit;
+			break;	
+		case 'jf':
+				if(empty($qu)){
+					echo "<script>alert('请选择分区');history.go(-1)</script>";
+					exit;
+				}
+				$name=trim($_POST['name']);
+				$con = @mysql_connect($AM_CONFIG['db_host'],$AM_CONFIG['db_username'],$AM_CONFIG['db_password'],$AM_CONFIG['dbport']);	
+				mysql_select_db($AM_CONFIG['dbgame'],$con);
+				mysql_query("set names 'latin1'"); //数据库输出编码
+				$result = mysql_query("SELECT * FROM player WHERE Name = '{$name}' limit 1");
+				if($result&&mysql_num_rows($result)>0){
+				$row = mysql_fetch_array($result);
+				}
+				$uid    = $row['RoleID'];
+				if(empty($uid)){
+						echo "<script>alert('数据库无此角色');history.go(-1)</script>";
+						exit;
+					}
+				mysql_query("replace into lockplayer(RoleID, LockDate) value('$uid', '0')");
+				mysql_query("INSERT INTO `GM_LOG` (`a1`, `a2`) VALUES ('解封', '$name')");
+				echo '<script>alert("解封['.$name.']成功");history.go(-1)</script>';	
+				exit;		
+			break;
+		case 'jy':
+				if(empty($qu)){
+					echo "<script>alert('请选择分区');history.go(-1)</script>";
+					exit;
+				}
+				$name=trim($_POST['name']);
+				$con = @mysql_connect($AM_CONFIG['db_host'],$AM_CONFIG['db_username'],$AM_CONFIG['db_password'],$AM_CONFIG['dbport']);	
+				mysql_select_db($AM_CONFIG['dbgame'],$con);
+				mysql_query("set names 'latin1'"); //数据库输出编码
+				$result = mysql_query("SELECT * FROM player WHERE Name = '{$name}' limit 1");
+				if($result&&mysql_num_rows($result)>0){
+				$row = mysql_fetch_array($result);
+				}
+				$uid    = $row['RoleID'];
+				if(empty($uid)){
+						echo "<script>alert('数据库无此角色');history.go(-1)</script>";
+						exit;
+					}
+				mysql_query("UPDATE `player` SET `SpeakTick`='-1' WHERE (`RoleID`='$uid')");
+				mysql_query("INSERT INTO `GM_LOG` (`a1`, `a2`) VALUES ('禁言', '$name')");
+				echo '<script>alert("禁言['.$name.']成功");history.go(-1)</script>';
+				exit;				
+			break;	
+		case 'jj':	
+				if(empty($qu)){
+					echo "<script>alert('请选择分区');history.go(-1)</script>";
+					exit;
+				}
+				$name=trim($_POST['name']);
+				$con = @mysql_connect($AM_CONFIG['db_host'],$AM_CONFIG['db_username'],$AM_CONFIG['db_password'],$AM_CONFIG['dbport']);	
+				mysql_select_db($AM_CONFIG['dbgame'],$con);
+				mysql_query("set names 'latin1'"); //数据库输出编码
+				$result = mysql_query("SELECT * FROM player WHERE Name = '{$name}' limit 1");
+				if($result&&mysql_num_rows($result)>0){
+				$row = mysql_fetch_array($result);
+				}
+				$uid    = $row['RoleID'];
+				if(empty($uid)){
+						echo "<script>alert('数据库无此角色');history.go(-1)</script>";
+						exit;
+					}
+				mysql_query("UPDATE `player` SET `SpeakTick`='0' WHERE (`RoleID`='$uid')");
+				mysql_query("INSERT INTO `GM_LOG` (`a1`, `a2`) VALUES ('解禁', '$name')");
+				echo '<script>alert("解禁['.$name.']成功");history.go(-1)</script>';
+				exit;
+			break;	
+		case 'edit':
+				if(empty($qu)){
+					echo "<script>alert('请选择分区');history.go(-1)</script>";
+					exit;
+				}
+				$name=trim($_POST['name']);
+				$con = @mysql_connect($AM_CONFIG['db_host'],$AM_CONFIG['db_username'],$AM_CONFIG['db_password'],$AM_CONFIG['dbport']);	
+				mysql_select_db($AM_CONFIG['dbgame'],$con);
+				mysql_query("set names 'latin1'"); //数据库输出编码
+				$result = mysql_query("SELECT * FROM player WHERE Name = '{$name}' limit 1");
+				if($result&&mysql_num_rows($result)>0){
+				$row = mysql_fetch_array($result);
+				}
+				$uid    = $row['RoleID'];
+				if(empty($uid)){
+						echo "<script>alert('数据库无此角色');history.go(-1)</script>";
+						exit;
+					}
+				$level=trim($_POST['level']);					
+				mysql_query("UPDATE `player` SET `Level`='$level' WHERE (`RoleID`='$uid')");
+				mysql_query("CALL gm('$uid')");
+				mysql_query("INSERT INTO `GM_LOG` (`a1`, `a2`, `a3`) VALUES ('修改等级', '$name', '$level')");
+				echo '<script>alert("修改等级成功");history.go(-1)</script>';
+				exit;
+			break;
+		case 'pass':
+				if(empty($qu)){
+					echo "<script>alert('请选择分区');history.go(-1)</script>";
+					exit;
+				}
+				$name=trim($_POST['name']);
+				$con = @mysql_connect($AM_CONFIG['db_host'],$AM_CONFIG['db_username'],$AM_CONFIG['db_password'],$AM_CONFIG['dbport']);	
+				mysql_select_db($AM_CONFIG['dbgame'],$con);
+				mysql_query("set names 'latin1'"); //数据库输出编码
+				$result = mysql_query("SELECT * FROM player WHERE Name = '{$name}' limit 1");
+				if($result&&mysql_num_rows($result)>0){
+				$row = mysql_fetch_array($result);
+				}
+				$uid    = $row['RoleID'];
+				if(empty($uid)){
+						echo "<script>alert('数据库无此角色');history.go(-1)</script>";
+						exit;
+					}
+				$pwd=trim($_POST['pwd']);					
+				$PwdHash = md5($dwID[1].$_POST[num]);
+				mysql_query("UPDATE `user` SET `PwdHash`='$PwdHash' WHERE (`UserID`='$uid')");
+				$t = $name."|".$pwd;
+				mysql_query("INSERT INTO `GM_LOG` (`a1`, `a2`, `a3`) VALUES ('修改密码', '$t', '$pwd')");
+				echo '<script>alert("修改密码成功");history.go(-1)</script>';
+				exit;
+			break;
+       default:
+              echo "<script>alert('未知操作');history.go(-1)</script>";
+              break;
+}
+
+}
+	echo   "<script>alert('GM码错误');history.go(-1)</script>" ;
+	exit;
+	}
+	$eff = urldecode($AM_CONFIG['sa']);
+	echo "<script>alert('$eff');history.go(-1)</script>" ;
+	exit;
+}
+function sign($data,$key) {
+    ksort($data);
+    $sign = strtoupper(md5(urldecode(http_build_query($data)).'&key='.$key));
+    return $sign;
+}
+
+function c86($a){return intval(floor($a/128));}
+function b86($a,$b){return $a%128+$b;}
+function item($a){
+	if($a>=128){
+        $a1=c86($a);
+        $a0=b86($a,128);
+        if($a1>=128){$a2=c86($a1);$a1=b86($a1,128);}else{$a2='';}
+        if($a2>=128){$a3=c86($a2);$a2=b86($a2,128);}else{$a3='';}
+        if($a3>=128){$a4=c86($a3);$a3=b86($a3,128);}else{$a4='';}
+	}else{
+        $a2='';$a1=$a%128;$a0='';
+    }
+	$b='';
+	if($a4!=''){$b=pack('c', $a4);}
+	if($a3!=''){$b=pack('c', $a3).$b;}
+	if($a2!=''){$b=pack('c', $a2).$b;}
+	if($a1!=''){$b=pack('c', $a1).$b;}
+	if($a0!=''){$b=pack('c', $a0).$b;}
+	return bin2hex($b);
+}
+function itemnum($a,$b){
+	if($a>=128){
+        $aa=7+$b;
+        $a1=c86($a);
+        $a0=b86($a,128);
+        if($a1>=128){$a2=c86($a1);$a1=b86($a1,128);$aa=8+$b;}else{$a2='';}
+        if($a2>=128){$a3=c86($a2);$a2=b86($a2,128);$aa=9+$b;}else{$a3='';}
+        if($a3>=128){$a4=c86($a3);$a3=b86($a3,128);$aa=10+$b;}else{$a4='';}
+	}else{
+        $aa=6+$b;
+    }
+	return dechex($aa);
+}
+?>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>传世GM后台</title>
-	<meta name="keywords" content="传世GM后台" />
-	<meta name="description" content="传世GM后台" /> 
-
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>传奇世界后台</title>
+<style>
+  *{padding:0;margin:0}
+  body{padding-left:20px;padding-top:20px}
+  span{height;24px;line-height:24px;font-size:12px;min-width:100px;display:inline-block;text-align:justify;text-align-last:justify;margin-bottom:12px}
+  select,input,button{height:24px;line-height:24px;font-size:12px;width:150px;display:inline-block}
+  #maildesc{text-align:none;color:#ff0000;}
+  #common_box{width:300px;position:fixed;_position:absolute;right:0;top:20%;background:#fff;z-index:88;text-align:left}
+#cli_on{width:30px;height:310px;float:left;cursor:pointer;background:#C90}
+</style>
 </head>
-
 <body>
+<div id="status"><i style="top: 0">传世GM后台</i></div><br><hr><br>
+<form name="form" method="post" action="">
+ <div><span>GM校验码: </span><input type='password' value='' name='checknum'></div>
+   <div><span>选区: </span><select name='qu'><option value='1'>1区</option><option value='2'>2区</option></select></div>
+  <div><span>角色名: </span><input type='text' value='' name='name' placeholder='请输入角色名'><br></div>
+  <div><span>物品搜索: </span><input type='text' value='' id='searchipt' placeholder='物品搜索' ><br><input type='button' value="搜索" id='search'></div><br>
+  <div><span>物品选择: </span><select class="form-control selectpicker" id="mailid" name="mailid" value="">
+<?php
+	$file = fopen("item.txt", "r");
+	while(!feof($file))
+	{
+	$line=fgets($file);
+	$txts=explode(';',$line);
+	if(count($txts)==2){
+	echo '<option value="'.$txts[0].'">'.$txts[1].'</option>';
+			
+	}
 
-	<div class="limiter">
-		<div class="bg container-login100">
-			<div class="wrap-login100">								
-				<span class="login100-form-title">传世授权后台</span>								
-      <div class="modal-body">
-            <div class="form-group">
-                <div class="form-group">
-                    <div class="form-group">
-  <div><span></span><input type='password' class="form-control" placeholder="输入GM校验码" value='' id='checknum'></div>
-  
-                        <select id="qu" name="qu" class="form-control selectpicker" data-size="5" title="请选择区服" required>
-                            <option value="1">传世一服</option>
-                            <option value="2">传世二服</option>
-                        </select>
-                    </div>
-                </div>
-				 <hr/>
-  <div><span></span>
-  <input type='text' value='' id='uid' class="form-control" placeholder='请输入角色名字'>
-  <input type='text' value='' id='upass' class="form-control" placeholder='请输入授权密码。'>
-  <select id="vip" name="vip" class="selectpicker show-tick form-control" data-live-search="true" data-size="5" title="选物品">
-								<?php
-								//减少调用config这个单独出来
-								$yzfvip=array(
-								'1'=>'VIP1只充值',   //自行修改VIP
-								'2'=>'VIP2充值+邮件',
-								);	
-							  foreach($yzfvip as $k=>$v){
-								  echo '<option value="'.$k.'">'.$v.'</option>';
-							  }
-							  ?>
-  </select>  
-  <input type='button' class="btn btn-primary btn-block" value='添加授权用户' id='addvipbtn'>
-  <input type='button' class="btn btn-primary btn-block" value='修改VIP权限' id='editvip'>
-  <input type='button' class="btn btn-primary btn-block" value='修改玩家密码' id='editpwd'>
-  <input type='button' class="btn btn-danger btn-block" value='删除玩家权限' id='delvip'>
+	}
+	fclose($file);
+?> 
+  </select>
   </div>
-  <hr/><!---
- <div><span></span><input type='number' id='chargenum'class="form-control selectpicker"  placeholder='请输入充值数量'><input type='button'class="btn btn-danger btn-block"  value='充值' id='chargebtn'></div> 
-  <hr/>--->
- <div><span></span><td>
-     <div>
-  <input type='text' value='' id='searchipt' class="form-control" placeholder='物品搜索'>	 
-  <select id="mailid" name="mailid" class="selectpicker show-tick form-control" data-live-search="true" data-size="5" title="选物品">
-    <?php
-		$file = fopen("user/item.txt", "r");
-		while(!feof($file))
-		{
-			$line=fgets($file);
-			$txts=explode(';',$line);
-			if(count($txts)==2){
-				echo '<option value="'.$txts[0].'">'.$txts[1].'</option>';
+  <div><span>数量: </span><input type='text' value='' name='num' placeholder='数量'></div>
+   <div><button type="submit"  name="sub" value="mail">发送邮件</button></div><br>
+   <hr><br>
+   <div><button type="submit"  name="sub" value="allmail">全服邮件</button></div><br><hr><br>
+  <div><button type="submit"  name="sub" value="fh">查封</button><button type="submit"  name="sub" value="jf">解封</button></div><br>
+  <div><button type="submit"  name="sub" value="jy">禁言</button><button type="submit"  name="sub" value="jj">解禁</button></div><br>
+  <hr><br>
+  <div><span>提示：下线后再修改等级!</span></div>
+  <div><span>修改等级: </span><input type='text' value='' name='level' placeholder='等级'><br><button type="submit"  name="sub" value="edit">修改等级</button></div><br>
+  <hr><br>
+  <div><span>修改密码: </span><input type='text' value='' name='pwd' placeholder='玩家密码'><br><button type="submit"  name="sub" value="pass">修改玩家密码</button></div><br>
+</form>
+<!-- <div id="common_box">
+	<div id="cli_on" onclick="bn2(this.id,common_box.id)">点击我可以收起或展开</div>
+	<div id="num2" style="font-size:10px;">
+<?php
+function Tlog($a) {
+	$fp = fopen($a, "r");
+	$a1 = '';
+	while (!feof($fp)) {
+		$a2 = fgets($fp);
+		if (substr($a2, 0, 11) == 'SecTalkFlow') {
+			$a2 = explode("|", $a2);
+			if (substr($a2[18], 0, 1) != '^') {
+				$a1 = $a1.'【'.$a2[8].'】：'.$a2[18].'<br/>';
 			}
 		}
-		fclose($file);
-    ?>
-            </select></div>
-        <div><span></span><input type='text' value='' id='mailnum' class="form-control"  placeholder='请输入发放数量'></div>
-    <div><input type='button'  class="btn btn-primary btn-block"  value='发送邮件' id='mailbtn'></div><span></span>  <hr/>
-    <div><input type='button'  class="btn btn-danger btn-block"  value='全服邮件' id='amailbtn'></div>	
- <hr/>
- 
-<select class="form-control selectpicker" id="chargenum2" name="num">
-<option value='11' desc=''>查封</option>
-<option value='22' desc=''>解封</option>
-<option value='33' desc=''>禁言</option>
-<option value='44' desc=''>解禁</option>
-<option value='55' desc=''>修改等级(下线后修改)</option>
-<option value='66' desc=''>修改密码</option>
- </select>
-<input type='text' value='' id='unum' class="form-control" placeholder='请输入修改等级/密码'>
-  <input type='button'class="btn btn-primary btn-block"  value='修改属性' id='chargebtn2'></div>
- <hr/>
-<div>
-	
+	}
+	fclose($fp);
+	return $a1;
+}
+$log6 = Tlog($AM_CONFIG['log'].date('Ymd').'.log');
+if($log6!=""){
+echo $log6;
+}else{echo "当前没有数据";}
+?>
 </div>
-<div class="txt1 text-center">
-		<span>传世 By：35 bo ke Com</span>
-</div>
-<script src='js/jquery-1.7.2.min.js'></script>
+</div> -->
+<script src='jquery-1.7.2.min.js'></script>
 <script>
-  var checknum='';
-  var uid='';
-  var qu=$('#qu').val();
-  $('#checknum').change(function(){
-	  checknum=$(this).val();
-  });
-  $('#uid').change(function(){
-	  uid=$.trim($(this).val());
-  });
-  $('#qu').change(function(){
-	  qu=$.trim($(this).val());
-  });
-
-  
-  $('#addvipbtn').click(function(){
-	  if(checknum==''){
-		  alert('请输入GM校验码。');
-		  return false;
-	  }
-	  if(uid==''){
-		  alert('角色名不能为空。');
-		  return false;
-	  }
-	  var upass=$('#upass').val();
-	  if(upass==''){
-		  alert('请输入授权密码。');
-		  return false;
-	  }	 
-	  var vip=$('#vip').val();
-	  if(vip==''){
-		  alert('请选择权限。');
-		  return false;
-	  }	  
+$('#search').click(function(){
+	  var keyword=$('#searchipt').val();
 	  $.ajax({
-		  url:'user/gmquery.php',
+		  url:'itemquery.php',
 		  type:'post',
-		  'data':{type:'addvip',checknum:checknum,uid:uid,qu:qu,upass:upass,vip:vip},
-          'cache':false,
-          'dataType':'json',
-		  success:function(data){
-			  console.log('data',data);
-			  alert(data.info);
-		  },
-		  error:function(){
-			  alert('操作失败');
-		  }
-	  });
-  });
-  $('#editvip').click(function(){
-	  if(checknum==''){
-		  alert('请输入GM校验码。');
-		  return false;
-	  }
-	  if(uid==''){
-		  alert('角色名不能为空。');
-		  return false;
-	  }
-	  var upass=$('#upass').val();
-	  if(upass==''){
-		  alert('请输入授权密码。');
-		  return false;
-	  }	 
-	  var vip=$('#vip').val();
-	  if(vip==''){
-		  alert('请选择权限。');
-		  return false;
-	  }	  
-	  $.ajax({
-		  url:'user/gmquery.php',
-		  type:'post',
-		  'data':{type:'editvip',checknum:checknum,uid:uid,qu:qu,upass:upass,vip:vip},
-          'cache':false,
-          'dataType':'json',
-		  success:function(data){
-			  console.log('data',data);
-			  alert(data.info);
-		  },
-		  error:function(){
-			  alert('操作失败');
-		  }
-	  });
-  });
-   $('#editpwd').click(function(){
-	  if(checknum==''){
-		  alert('请输入GM校验码。');
-		  return false;
-	  }
-	  if(uid==''){
-		  alert('角色名不能为空。');
-		  return false;
-	  }
-	  var upass=$('#upass').val();
-	  if(upass==''){
-		  alert('请输入授权密码。');
-		  return false;
-	  }	 
-	  var vip=$('#vip').val();
-	  if(vip==''){
-		  alert('请选择权限。');
-		  return false;
-	  }	  
-	  $.ajax({
-		  url:'user/gmquery.php',
-		  type:'post',
-		  'data':{type:'editpwd',checknum:checknum,uid:uid,qu:qu,upass:upass,vip:vip},
-          'cache':false,
-          'dataType':'json',
-		  success:function(data){
-			  console.log('data',data);
-			  alert(data.info);
-		  },
-		  error:function(){
-			  alert('操作失败');
-		  }
-	  });
-  });
- 
-  $('#delvip').click(function(){
-	  if(checknum==''){
-		  alert('请输入GM校验码。');
-		  return false;
-	  }
-	  if(uid==''){
-		  alert('请输入需要取消授权的账号。');
-		  return false;
-	  }
-	  var upass=$('#upass').val();
-	  if(upass==''){
-		  alert('请输入以前授权时候的密码。');
-		  return false;
-	  }
-	  var vip=$('#vip').val();
-	  if(vip==''){
-		  alert('请选择权限。');
-		  return false;
-	  }	  
-	  $.ajax({
-		  url:'user/gmquery.php',
-		  type:'post',
-		  'data':{type:'delvip',checknum:checknum,uid:uid,qu:qu,upass:upass,vip:vip},
-          'cache':false,
-          'dataType':'json',
-		  success:function(data){
-			  console.log('data',data);
-			  alert(data.info);
-		  },
-		  error:function(){
-			  alert('操作失败');
-		  }
-	  });
-  });
-    $('#chargebtn2').click(function(){
-	  if(checknum==''){
-		  alert('请输入GM校验码。');
-		  return false;
-	  }
-	  if(uid==''){
-		  alert('角色名不能为空。');
-		  return false;
-	  }
-	  var unum=$('#unum').val();
- 
-	  var chargenum2=$('#chargenum2').val();
-
-	  $.ajax({
-		  url:'user/gmquery.php',
-		  type:'post',
-		  'data':{type:'charge2',checknum:checknum,uid:uid,num:chargenum2,qu:qu,unum:unum},
-          'cache':false,
-          'dataType':'json',
-		  success:function(data){
-			  console.log('data',data);
-			  alert(data.info);
-		  },
-		  error:function(){
-			  alert('操作失败');
-		  }
-	  });
-  });
-  $('#mailbtn').click(function(){
-	  if(checknum==''){
-		  alert('请输入GM校验码。');
-		  return false;
-	  }
-	  if(uid==''){
-		  alert('角色名不能为空。');
-		  return false;
-	  }
-	  var itemid=$('#mailid').val();
-	  if(itemid==''){
-		  alert('请选择物品。');
-		  return false;
-	  }
-	  var mailnum=$('#mailnum').val();
-	  if(mailnum=='' || isNaN(mailnum)){
-		  alert('数量不能为空。');
-		  return false;
-	  }
-	  if(mailnum<1 || mailnum>999999){
-		  alert('数量范围:1-999999。');
-		  return false;
-	  }
-	  $.ajax({
-		  url:'user/gmquery.php',
-		  type:'post',
-		  'data':{type:'mail',checknum:checknum,uid:uid,item:itemid,num:mailnum,qu:qu},
-          'cache':false,
-          'dataType':'json',
-		  success:function(data){
-			  console.log('data',data);
-			  alert(data.info);
-		  },
-		  error:function(){
-			  alert('操作失败');
-		  }
-	  });	  
-  });
-  $('#amailbtn').click(function(){
-	  if(checknum==''){
-		  alert('请输入GM校验码。');
-		  return false;
-	  }
-//	  if(uid==''){
-//		  alert('全服邮件角色名随便输入一个即可。');
-//		  return false;
-//	  }
-	  var itemid=$('#mailid').val();
-	  if(itemid==''){
-		  alert('请选择物品。');
-		  return false;
-	  }
-	  var mailnum=$('#mailnum').val();
-	  if(mailnum=='' || isNaN(mailnum)){
-		  alert('数量不能为空。');
-		  return false;
-	  }
-	  if(mailnum<1 || mailnum>999999){
-		  alert('数量范围:1-999999。');
-		  return false;
-	  }
-	  $.ajax({
-		  url:'user/gmquery.php',
-		  type:'post',
-		  'data':{type:'allmail',checknum:checknum,uid:'zgymw',item:itemid,num:mailnum,qu:qu},
-          'cache':false,
-          'dataType':'json',
-		  success:function(data){
-			  console.log('data',data);
-			  alert(data.info);
-		  },
-		  error:function(){
-			  alert('操作失败');
-		  }
-	  });	  
-  });
-  $('#searchipt').on('change',function(){
-	  var keyword=$(this).val();
-	  $.ajax({
-		  url:'user/itemquery.php',
-		  type:'post',
-		  'data':{keyword:keyword,typea:'item_info'},  
+		  'data':{keyword:keyword},
           'cache':false,
           'dataType':'json',
 		  success:function(data){
 			  if(data){
 				  $('#mailid').html('');
 				for (var i in data){
-				  $('#mailid').append('<option value="'+data[i].key+'" data-desc="'+data[i].desc+'">'+data[i].val+'</option>');
+				  $('#mailid').append('<option value="'+data[i].key+'">'+data[i].val+'</option>');
 				}
 			  }else{
-				  $('#mailid').html('<option value="0" data-desc="未找到">未找到</option>');
+				  $('#mailid').html('<option value="0">未找到</option>');
 			  }
-			  $('#maildesc').html('请选择');
 		  },
 		  error:function(){
 			  alert('操作失败');
 		  }
 	  });
   });
-  $('#mailid').live('change',function(){
-	  console.log('test');
-	  var desc=$('#mailid option:selected').data('desc');
-	  $('#maildesc').html(desc);
-  });  
-
-</script>
+  </script>
 </body>
+<script>
+    function bn2(str,str1){
+	var combox = document.getElementById(str1);
+	var cli_on = document.getElementById(str);
+	var flag = true;
+cli_on.onclick = function () {
+		combox.style.right = flag?'-270px':0;
+		flag = !flag;
+	}
+	}
+</script>
 </html>
